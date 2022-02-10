@@ -1,0 +1,1 @@
+Sitio web educativo para niños de primaria con tres minijuegos enfocados en el aprendizaje de operaciones basicas tales como sumas, restas, además de sucesiones numericas.

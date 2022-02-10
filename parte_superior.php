@@ -24,6 +24,6 @@
 </head>
 <body background="imagenes/fondo.jpg" class="imagen_fondo" onload="actualizar_estrellas();">
     <header >
-        <a href=""><img class="logo_grande centrar" src="imagenes/logo_grande.png"></a>
+        <a href="home.php"><img class="logo_grande centrar" src="imagenes/logo_grande.png"></a>
         
     </header>

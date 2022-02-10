@@ -60,12 +60,12 @@ a:hover{ /*Hipervinculos con cursor encima*/
 .recuadro_blanco_fondo{
     background-color: white;
     width: 80%;
-    margin-top: 4%;
-    margin-bottom: 4%;
-    padding-top: 4%;
+    margin-top: 3%;
+    margin-bottom: 3%;
+    padding-top: 3%;
     padding-bottom: 4%;
     border-radius: 5%;
-    border-width: 1px;
+    border-width: 2px;
     border-style: dashed;
     border-color: rgb(24, 8, 68);
     -webkit-box-shadow: 0px 11px 16px -4px rgba(0,0,0,0.79); 
@@ -184,11 +184,12 @@ a:hover{ /*Hipervinculos con cursor encima*/
     }
 }
 .img_ejercicio_resolver{
-    width:400px;
+    width:300px;
+    margin-bottom: 1%;
 }
 @media (max-width: 540px){
     .img_ejercicio_resolver{
-        width:350px;
+        width:250px;
     }
 }
 .boton_respuesta{
@@ -200,7 +201,7 @@ a:hover{ /*Hipervinculos con cursor encima*/
     margin: 0 auto;
     margin-bottom: 2%;
     margin-top: 2%;
-    border-width: 0.5px;
+    border-width: 2px;
     border-style: solid;
     border-color: rgb(24, 8, 68);
     margin-right: 2%;
@@ -210,10 +211,15 @@ a:hover{ /*Hipervinculos con cursor encima*/
     width: 80%;
 }
 .img_boton_respuesta_corta{
-    width: 40%;
+    width: 100px;
 }
 .img_estrellas_ejercicio{
-    width:80%;
+    width:400px;
+}
+@media (max-width: 540px){
+    .img_estrellas_ejercicio{
+        width:300px;
+    }
 }
 
 .perfiles_index{ /*Estilo perfiles en la ventana de seleccionar perfil*/
@@ -268,7 +274,7 @@ a:hover{ /*Hipervinculos con cursor encima*/
     margin: 0 auto;
     margin-bottom: 2%;
     margin-top: 2%;
-    border-width: 0.5px;
+    border-width: 2px;
     border-style: solid;
     border-color: rgb(24, 8, 68);
     margin-right: 32%;
@@ -282,9 +288,11 @@ a:hover{ /*Hipervinculos con cursor encima*/
         margin-top: 6%;
     }
 }
+
 .instrucciones_cortas{
     font-size: 2.5rem; 
-    margin-top: 3%;
+    margin-top: 1%;
+    margin-bottom: 1%;
     text-align: center;
     font-weight: bold;
 }
@@ -331,9 +339,42 @@ a:hover{ /*Hipervinculos con cursor encima*/
     transform:scale(1.05);
     outline: 1px none red;
 }
+.boton_seleccionable_video{
+    transition: 0.2s ease;
+    -moz-transition: 0.2s ease; /* Firefox */
+    -webkit-transition: 0.2s ease; /* Chrome - Safari */
+    -o-transition: 0.2s ease; /* Opera */
+    -webkit-box-shadow: 0px 11px 16px -4px rgba(0,0,0,0.79); 
+    box-shadow: 0px 11px 16px -4px rgba(0,0,0,0.79);
+    background-color: #c3e3f5;
+    background: -webkit-linear-gradient(right, #a075f0, #dbcdf8, #dbcdf8, #a075f0);
+    background: -o-linear-gradient(right, #df7d7d, #f5f2c3, #f5f2c3, #df7d7d);
+    background: -moz-linear-gradient(right, #7dabdf, #c3e3f5, #c3e3f5, #7dabdf);
+    background: linear-gradient(right, #7dabdf, #c3e3f5, #c3e3f5, #7dabdf);
+    outline: 1px none red;
+}
+.boton_seleccionable_video:hover{
+    background-color: var(--seleccion);
+    background: -webkit-linear-gradient(right, var(--seleccion), #dfe9a4, #dfe9a4, var(--seleccion));
+    background: -o-linear-gradient(right, #486ec0, #dfe9a4, #dfe9a4, #2c53bd);
+    background: -moz-linear-gradient(right, #89a2d8, #dfe9a4, #dfe9a4, #2c53bd);
+    background: linear-gradient(right, #89a2d8, #dfe9a4, #dfe9a4, #2c53bd);
+    -webkit-transform:scale(1.05);
+    -moz-transform:scale(1.05);
+    -ms-transform:scale(1.05);
+    -o-transform:scale(1.05);
+    transform:scale(1.05);
+    outline: 1px none red;
+}
 .posicion_btn_resultado_r1{
     position:absolute; top: 1%; 
     margin-bottom: 30px;
     margin-left: 5%;
     z-index: 21
 }
+
+
+
+
+
+
