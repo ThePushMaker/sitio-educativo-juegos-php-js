@@ -64,7 +64,7 @@
 
     <script type="text/javascript">
        
-       window.location.href = "home.php";
+       window.location.href = "./php/principal/home";
 
 
     </script> 

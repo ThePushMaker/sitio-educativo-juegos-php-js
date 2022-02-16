@@ -12,19 +12,19 @@ function mostrar_resultado_respuesta(id){ //validar_respuestas
 
     if(xx.name=='r_correcta'){ //procede a mostrar una imagen dependiendo del caso //2
         //3
-        imagen = '<img src="imagenes/correcto.png" alt="Correcto" class="centrar" style="width: 90px; margin-right: 100px;  margin-left: 100px;"/>'
+        imagen = '<img src="../../imagenes/correcto.png" alt="Correcto" class="centrar" style="width: 90px; margin-right: 100px;  margin-left: 100px;"/>'
         document.getElementById(xx.id).parentNode.innerHTML = imagen;
         pasar_nivel_notificacion()
         var nombre_archivo = filename() 
         //reloj
-        if(nombre_archivo=="juego_reloj_n1_5.php" || nombre_archivo=="juego_reloj_n2_5.php" || nombre_archivo=="juego_reloj_n3_5.php" || nombre_archivo=="juego_reloj_n4_5.php" || nombre_archivo=="juego_reloj_n5_5.php" || nombre_archivo=="juego_contar_n1_5.php" || nombre_archivo=="juego_contar_n2_5.php" || nombre_archivo=="juego_contar_n3_5.php" || nombre_archivo=="juego_contar_n4_5.php" || nombre_archivo=="juego_contar_n5_5.php" || nombre_archivo=="juego_suma_n2_5.php" || nombre_archivo=="juego_suma_n2_5.php" || nombre_archivo=="juego_suma_n3_5.php" || nombre_archivo=="juego_suma_n4_5.php" || nombre_archivo=="juego_suma_n5_5.php"){//4
+        if(nombre_archivo=="juego_reloj_n1_5.php" || nombre_archivo=="juego_reloj_n2_5.php" || nombre_archivo=="juego_reloj_n3_5.php" || nombre_archivo=="juego_reloj_n4_5.php" || nombre_archivo=="juego_reloj_n5_5.php" || nombre_archivo=="juego_contar_n1_5.php" || nombre_archivo=="juego_contar_n2_5.php" || nombre_archivo=="juego_contar_n3_5.php" || nombre_archivo=="juego_contar_n4_5.php" || nombre_archivo=="juego_contar_n5_5.php" || nombre_archivo=="juego_suma_n2_5.php" || nombre_archivo=="juego_suma_n2_5|" || nombre_archivo=="juego_suma_n3_5.php" || nombre_archivo=="juego_suma_n4_5.php" || nombre_archivo=="juego_suma_n5_5.php"){//4
             pasar_nivel_juego_completado_notificacion()//5
         }
 
     }else{//6
-        const sonido = cargarSonido("audios/incorrecto.mp3");
+        const sonido = cargarSonido("../../audios/incorrecto.mp3");
         sonido.play();
-        imagen = '<img src="imagenes/incorrecto.png" alt="Incorrecto" class="centrar" style="width: 90px; margin-right: 100px;  margin-left: 100px;" />'
+        imagen = '<img src="../../imagenes/incorrecto.png" alt="Incorrecto" class="centrar" style="width: 90px; margin-right: 100px;  margin-left: 100px;" />'
         document.getElementById(xx.id).parentNode.innerHTML = imagen;
 
         cont_estrellas--;
@@ -39,7 +39,7 @@ function mostrar_resultado_respuesta(id){ //validar_respuestas
 // Programador: Brian Rodríguez
 // Fecha: 29/mayo/21
 function pasar_nivel_notificacion(){
-    const sonido = cargarSonido("audios/correcto.mp3");
+    const sonido = cargarSonido("../../audios/correcto.mp3");
     sonido.play();
     Swal.fire({
         type:'success',
@@ -58,7 +58,7 @@ function pasar_nivel_notificacion(){
 // Programador: Brian Rodríguez
 // Fecha: 29/mayo/21
 function pasar_nivel_juego_completado_notificacion(){
-    const sonido = cargarSonido("audios/terminado.ogg");
+    const sonido = cargarSonido("../../audios/terminado.ogg");
     sonido.play();
     Swal.fire({
         type:'success',
@@ -77,7 +77,7 @@ function pasar_nivel_juego_completado_notificacion(){
 // Programador: Brian Rodríguez
 // Fecha: 29/mayo/21
 function sin_vidas_notificacion(){
-    const sonido = cargarSonido("audios/muerte.ogg");
+    const sonido = cargarSonido("../../audios/muerte.ogg");
     sonido.play();
     Swal.fire({
         type:'error',
@@ -87,7 +87,7 @@ function sin_vidas_notificacion(){
         allowOutsideClick: false
     }).then((result) => {
         if(result.value){
-            window.location.href = "home.php";
+            window.location.href = "../principal/home";
         }
     })
 }
@@ -102,247 +102,22 @@ function filename(){
     return rutaRelativa;  
 }
 
-// Función que se encarga de encontrar el proximo nivel y llevarte a el en función  del nombre de la pagina actual
-// Programador: Juan Morales
-// Fecha: 31/mayo/21
-function llevar_proximo_nvl(){ //validar_respuestas
-    var nombre_archivo = filename()
-           
-    // Juego reloj
-    //Juego reloj nvl 1
-    if(nombre_archivo=="juego_reloj_n1_1.php"){
-        window.location.href = "juego_reloj_n1_2.php";
-    }
-    if(nombre_archivo=="juego_reloj_n1_2.php"){
-        window.location.href = "juego_reloj_n1_3.php";
-    }
-    if(nombre_archivo=="juego_reloj_n1_3.php"){
-        window.location.href = "juego_reloj_n1_4.php";
-    }
-    if(nombre_archivo=="juego_reloj_n1_4.php"){
-        window.location.href = "juego_reloj_n1_5.php";
-    }
-    if(nombre_archivo=="juego_reloj_n1_5.php"){
-        window.location.href = "niveles_reloj.php";
-    }
-
-    //Juego reloj nvl 2
-    if(nombre_archivo=="juego_reloj_n2_1.php"){
-        window.location.href = "juego_reloj_n2_2.php";
-    }
-    if(nombre_archivo=="juego_reloj_n2_2.php"){
-        window.location.href = "juego_reloj_n2_3.php";
-    }
-    if(nombre_archivo=="juego_reloj_n2_3.php"){
-        window.location.href = "juego_reloj_n2_4.php";
-    }
-    if(nombre_archivo=="juego_reloj_n2_4.php"){
-        window.location.href = "juego_reloj_n2_5.php";
-    }
-    if(nombre_archivo=="juego_reloj_n2_5.php"){
-        window.location.href = "niveles_reloj.php";
-    }
-
-    //Juego reloj nvl 3
-    if(nombre_archivo=="juego_reloj_n3_1.php"){
-        window.location.href = "juego_reloj_n3_2.php";
-    }
-    if(nombre_archivo=="juego_reloj_n3_2.php"){
-        window.location.href = "juego_reloj_n3_3.php";
-    }
-    if(nombre_archivo=="juego_reloj_n3_3.php"){
-        window.location.href = "juego_reloj_n3_4.php";
-    }
-    if(nombre_archivo=="juego_reloj_n3_4.php"){
-        window.location.href = "juego_reloj_n3_5.php";
-    }
-    if(nombre_archivo=="juego_reloj_n3_5.php"){
-        window.location.href = "niveles_reloj.php";
-    }
-
-    //Juego reloj nvl 4
-    if(nombre_archivo=="juego_reloj_n4_1.php"){
-        window.location.href = "juego_reloj_n4_2.php";
-    }
-    if(nombre_archivo=="juego_reloj_n4_2.php"){
-        window.location.href = "juego_reloj_n4_3.php";
-    }
-    if(nombre_archivo=="juego_reloj_n4_3.php"){
-        window.location.href = "juego_reloj_n4_4.php";
-    }
-    if(nombre_archivo=="juego_reloj_n4_4.php"){
-        window.location.href = "juego_reloj_n4_5.php";
-    }
-    if(nombre_archivo=="juego_reloj_n4_5.php"){
-        window.location.href = "niveles_reloj.php";
-    }
-
-    //Juego reloj nvl 5
-    if(nombre_archivo=="juego_reloj_n5_1.php"){
-        window.location.href = "juego_reloj_n5_2.php";
-    }
-    if(nombre_archivo=="juego_reloj_n5_2.php"){
-        window.location.href = "juego_reloj_n5_3.php";
-    }
-    if(nombre_archivo=="juego_reloj_n5_3.php"){
-        window.location.href = "juego_reloj_n5_4.php";
-    }
-    if(nombre_archivo=="juego_reloj_n5_4.php"){
-        window.location.href = "juego_reloj_n5_5.php";
-    }
-    if(nombre_archivo=="juego_reloj_n5_5.php"){
-        window.location.href = "niveles_reloj.php";
-    }
-
-    // Juego suma
-    //Juego suma nvl 1
-    if(nombre_archivo=="juego_suma_n1_1.php"){
-        window.location.href = "juego_suma_n1_2.php";
-    }
-    if(nombre_archivo=="juego_suma_n1_2.php"){
-        window.location.href = "juego_suma_n1_3.php";
-    }
-    if(nombre_archivo=="juego_suma_n1_3.php"){
-        window.location.href = "juego_suma_n1_4.php";
-    }
-    if(nombre_archivo=="juego_suma_n1_4.php"){
-        window.location.href = "juego_suma_n1_5.php";
-    }
-    if(nombre_archivo=="juego_suma_n1_5.php"){
-        window.location.href = "niveles_suma.php";
-    }
-    //Juego suma nvl 2
-    if(nombre_archivo=="juego_suma_n2_1.php"){
-        window.location.href = "juego_suma_n2_2.php";
-    }
-    if(nombre_archivo=="juego_suma_n2_2.php"){
-        window.location.href = "juego_suma_n2_3.php";
-    }
-    if(nombre_archivo=="juego_suma_n2_3.php"){
-        window.location.href = "juego_suma_n2_4.php";
-    }
-    if(nombre_archivo=="juego_suma_n2_4.php"){
-        window.location.href = "juego_suma_n2_5.php";
-    }
-    if(nombre_archivo=="juego_suma_n2_5.php"){
-        window.location.href = "niveles_suma.php";
-    }
-    //Juego suma nvl 3
-    if(nombre_archivo=="juego_suma_n3_1.php"){
-        window.location.href = "juego_suma_n3_2.php";
-    }
-    if(nombre_archivo=="juego_suma_n3_2.php"){
-        window.location.href = "juego_suma_n3_3.php";
-    }
-    if(nombre_archivo=="juego_suma_n3_3.php"){
-        window.location.href = "juego_suma_n3_4.php";
-    }
-    if(nombre_archivo=="juego_suma_n3_4.php"){
-        window.location.href = "juego_suma_n3_5.php";
-    }
-    if(nombre_archivo=="juego_suma_n3_5.php"){
-        window.location.href = "niveles_suma.php";
-    }
-    //Juego suma nvl 4
-    if(nombre_archivo=="juego_suma_n4_1.php"){
-        window.location.href = "juego_suma_n4_2.php";
-    }
-    if(nombre_archivo=="juego_suma_n4_2.php"){
-        window.location.href = "juego_suma_n4_3.php";
-    }
-    if(nombre_archivo=="juego_suma_n4_3.php"){
-        window.location.href = "juego_suma_n4_4.php";
-    }
-    if(nombre_archivo=="juego_suma_n4_4.php"){
-        window.location.href = "juego_suma_n4_5.php";
-    }
-    if(nombre_archivo=="juego_suma_n4_5.php"){
-        window.location.href = "niveles_suma.php";
-    }
-    //Juego suma nvl 5
-    if(nombre_archivo=="juego_suma_n5_1.php"){
-        window.location.href = "juego_suma_n5_2.php";
-    }
-    if(nombre_archivo=="juego_suma_n5_2.php"){
-        window.location.href = "juego_suma_n5_3.php";
-    }
-    if(nombre_archivo=="juego_suma_n5_3.php"){
-        window.location.href = "juego_suma_n5_4.php";
-    }
-    if(nombre_archivo=="juego_suma_n5_4.php"){
-        window.location.href = "juego_suma_n5_5.php";
-    }
-    if(nombre_archivo=="juego_suma_n5_5.php"){
-        window.location.href = "niveles_suma.php";
-    }
-
-    //Juego contar
-    //Juego contar nvl 1
-    if(nombre_archivo=="juego_contar_n1_1.php"){
-        window.location.href = "juego_contar_n1_2.php";
-    }
-    if(nombre_archivo=="juego_contar_n1_2.php"){
-        window.location.href = "juego_contar_n1_3.php";
-    }
-    if(nombre_archivo=="juego_contar_n1_3.php"){
-        window.location.href = "juego_contar_n1_4.php";
-    }
-    if(nombre_archivo=="juego_contar_n1_4.php"){
-        window.location.href = "juego_contar_n1_5.php";
-    }
-    if(nombre_archivo=="juego_contar_n1_5.php"){
-        window.location.href = "niveles_contar.php";
-    }
-    //Juego contar nvl 2
-    if(nombre_archivo=="juego_contar_n2_1.php"){
-        window.location.href = "juego_contar_n2_2.php";
-    }
-    if(nombre_archivo=="juego_contar_n2_2.php"){
-        window.location.href = "juego_contar_n2_3.php";
-    }
-    if(nombre_archivo=="juego_contar_n2_3.php"){
-        window.location.href = "juego_contar_n2_4.php";
-    }
-    if(nombre_archivo=="juego_contar_n2_4.php"){
-        window.location.href = "juego_contar_n2_5.php";
-    }
-    if(nombre_archivo=="juego_contar_n2_5.php"){
-        window.location.href = "niveles_contar.php";
-    }
-    //Juego contar nvl 3
-    if(nombre_archivo=="juego_contar_n3_1.php"){
-        window.location.href = "juego_contar_n3_2.php";
-    }
-    if(nombre_archivo=="juego_contar_n3_2.php"){
-        window.location.href = "juego_contar_n3_3.php";
-    }
-    if(nombre_archivo=="juego_contar_n3_3.php"){
-        window.location.href = "juego_contar_n3_4.php";
-    }
-    if(nombre_archivo=="juego_contar_n3_4.php"){
-        window.location.href = "juego_contar_n3_5.php";
-    }
-    if(nombre_archivo=="juego_contar_n3_5.php"){
-        window.location.href = "niveles_contar.php";
-    }
-
-}
 
 // Función que se encarga de restar vidas y mostrar la imagen de vidas correpsondiente
 // Programador: Martín Calderón
 // Fecha: 31/mayo/21
 function actualizar_estrellas(){ //validar_respuestas
     if(cont_estrellas==3){
-        imagen = '<img src="imagenes/3_estrellas.png" alt="3" class="img_estrellas_ejercicio centrar" />'
+        imagen = '<img src="../../imagenes/3_estrellas.png" alt="3" class="img_estrellas_ejercicio centrar" />'
         document.getElementById("lugar_estrellas").innerHTML = imagen;
     }else if(cont_estrellas==2){
-        imagen = '<img src="imagenes/2_estrellas.png" alt="2" class="img_estrellas_ejercicio centrar" />'
+        imagen = '<img src="../../imagenes/2_estrellas.png" alt="2" class="img_estrellas_ejercicio centrar" />'
         document.getElementById("lugar_estrellas").innerHTML = imagen;
     }else if(cont_estrellas==1){
-        imagen = '<img src="imagenes/1_estrellas.png" alt="1" class="img_estrellas_ejercicio centrar" />'
+        imagen = '<img src="../../imagenes/1_estrellas.png" alt="1" class="img_estrellas_ejercicio centrar" />'
         document.getElementById("lugar_estrellas").innerHTML = imagen;
     }else if(cont_estrellas==0){
-    imagen = '<img src="imagenes/0_estrellas.png" alt="0" class="img_estrellas_ejercicio centrar" />'
+    imagen = '<img src="../../imagenes/0_estrellas.png" alt="0" class="img_estrellas_ejercicio centrar" />'
     document.getElementById("lugar_estrellas").innerHTML = imagen;
     sin_vidas_notificacion()
     }
@@ -361,18 +136,4 @@ const cargarSonido = function (fuente) {
     document.body.appendChild(sonido);
     return sonido;
 };
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
