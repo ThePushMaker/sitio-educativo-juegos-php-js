@@ -12,10 +12,10 @@ function mostrar_resultado_respuesta(id){ //validar_respuestas
 
     if(xx.name=='r_correcta'){ //procede a mostrar una imagen dependiendo del caso //2
         //3
-        imagen = '<img src="imagenes/correcto.png" alt="Correcto" class="centrar" style="width: 90px; margin-right: 100px;  margin-left: 100px;"/>'
-        document.getElementById(xx.id).parentNode.innerHTML = imagen;
+        /*        imagen = '<img src="imagenes/correcto.png" alt="Correcto" class="centrar" style="width: 90px; margin-right: 100px;  margin-left: 100px;"/>'
+                document.getElementById(xx.id).parentNode.innerHTML = imagen;*/
         pasar_nivel_notificacion()
-        var nombre_archivo = filename() 
+        var nombre_archivo = filename()
         //reloj
         if(nombre_archivo=="juego_reloj_n1_5.php" || nombre_archivo=="juego_reloj_n2_5.php" || nombre_archivo=="juego_reloj_n3_5.php" || nombre_archivo=="juego_reloj_n4_5.php" || nombre_archivo=="juego_reloj_n5_5.php" || nombre_archivo=="juego_contar_n1_5.php" || nombre_archivo=="juego_contar_n2_5.php" || nombre_archivo=="juego_contar_n3_5.php" || nombre_archivo=="juego_contar_n4_5.php" || nombre_archivo=="juego_contar_n5_5.php" || nombre_archivo=="juego_suma_n2_5.php" || nombre_archivo=="juego_suma_n2_5.php" || nombre_archivo=="juego_suma_n3_5.php" || nombre_archivo=="juego_suma_n4_5.php" || nombre_archivo=="juego_suma_n5_5.php"){//4
             pasar_nivel_juego_completado_notificacion()//5
@@ -24,8 +24,8 @@ function mostrar_resultado_respuesta(id){ //validar_respuestas
     }else{//6
         const sonido = cargarSonido("audios/incorrecto.mp3");
         sonido.play();
-        imagen = '<img src="imagenes/incorrecto.png" alt="Incorrecto" class="centrar" style="width: 90px; margin-right: 100px;  margin-left: 100px;" />'
-        document.getElementById(xx.id).parentNode.innerHTML = imagen;
+        /*        imagen = '<img src="imagenes/incorrecto.png" alt="Incorrecto" class="centrar" style="width: 90px; margin-right: 100px;  margin-left: 100px;" />'
+                document.getElementById(xx.id).parentNode.innerHTML = imagen;*/
 
         cont_estrellas--;
         // alert(cont_estrellas)
@@ -136,10 +136,10 @@ function ingresaste_cuenta(){
 
 
 function filename(){
-    var rutaAbsoluta = self.location.href;   
+    var rutaAbsoluta = self.location.href;
     var posicionUltimaBarra = rutaAbsoluta.lastIndexOf("/");
     var rutaRelativa = rutaAbsoluta.substring( posicionUltimaBarra + "/".length , rutaAbsoluta.length );
-    return rutaRelativa;  
+    return rutaRelativa;
 }
 
 
@@ -156,7 +156,7 @@ function ingresar_cuenta(id){ //validar_respuestas
 
 function llevar_proximo_nvl(){ //validar_respuestas
     var nombre_archivo = filename()
-           
+
     // Juego reloj
     //Juego reloj nvl 1
     if(nombre_archivo=="juego_reloj_n1_1.php"){
@@ -388,9 +388,9 @@ function actualizar_estrellas(){ //validar_respuestas
         imagen = '<img src="imagenes/1_estrellas.png" alt="1" class="img_estrellas_ejercicio centrar" />'
         document.getElementById("lugar_estrellas").innerHTML = imagen;
     }else if(cont_estrellas==0){
-    imagen = '<img src="imagenes/0_estrellas.png" alt="0" class="img_estrellas_ejercicio centrar" />'
-    document.getElementById("lugar_estrellas").innerHTML = imagen;
-    sin_vidas_notificacion()
+        imagen = '<img src="imagenes/0_estrellas.png" alt="0" class="img_estrellas_ejercicio centrar" />'
+        document.getElementById("lugar_estrellas").innerHTML = imagen;
+        sin_vidas_notificacion()
     }
 }
 
@@ -413,20 +413,20 @@ function register(id) {
         localStorage.setItem('nombre_imagen_perfil', 'icono_5')
         perfil_creado_notificacion()
     }else
-    alert("no existe esa imagen")
+        alert("no existe esa imagen")
     // var nombre_imagen_perfil = localStorage.getItem("nombre_imagen_perfil");
 
 }
 
-function actualizar_perfiles(){ 
+function actualizar_perfiles(){
     var nombre_imagen_perfil = localStorage.getItem("nombre_imagen_perfil");
     if(nombre_imagen_perfil!=null){
         // alert(nombre_imagen_perfil)
 
         imagen = '<img src="imagenes/iconos_perfil/'+nombre_imagen_perfil+'.png" alt="cuenta guardada" class="btn_añadir_perfil centrar" />'
         document.getElementById("o1").innerHTML = imagen;
-        
-        
+
+
     }else{ //sin cuenta
         // alert("vacio")
 
@@ -442,7 +442,7 @@ function click_perfil(id){ //validar_respuestas
             crear_perfil_notificacion()
         }
 
-        
+
     }else{ //sin cuenta
         // alert("vacio")
         crear_perfil_notificacion()
