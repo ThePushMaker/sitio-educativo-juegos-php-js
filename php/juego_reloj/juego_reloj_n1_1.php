@@ -34,7 +34,6 @@
     </div>
 </main>
 
-
 <script>
     $(document).ready(function() {
         var contaNivel = 0;
