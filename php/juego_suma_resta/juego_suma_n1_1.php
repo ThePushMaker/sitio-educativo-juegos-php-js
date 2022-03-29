@@ -10,7 +10,7 @@
         </a>
     </div>
 
-    <p class="instrucciones_cortas">Nivel 1 : 1/5 Juego suma con objetos</p>
+    <p class="instrucciones_cortas desc_nivel">Nivel 1 : 1/5 Juego suma con objetos</p>
     <div class="recuadro_blanco_fondo centrar">
         <!-- <h4> Puntuación actual:</h4> -->
         <div class="grupo_posibles_respuestas centrar" id='lugar_estrellas'>
@@ -73,14 +73,18 @@
                 return;
             }
 
-
-            console.log(contaSubNivel);
-
-            if(contaSubNivel>6){
+            if(contaSubNivel >= 4){
                 contaNivel++;
+                contaSubNivel = 0;
             }else {
                 contaSubNivel++;
             }
+
+            console.log(contaNivel);
+            console.log(contaSubNivel);
+
+            $('.desc_nivel').text('Nivel ' + (contaNivel+1) + ': ' + (contaSubNivel+1) + '/5 Juego suma con objetos');
+
             var imagenPrimera = jsonNiveles[contaNivel][contaSubNivel]['primeraImg'];
             var imagenSegunda = jsonNiveles[contaNivel][contaSubNivel]['segundaImg'];
             var opcionUno = jsonNiveles[contaNivel][contaSubNivel]['opcionUno'];
