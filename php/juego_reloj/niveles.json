@@ -2,15 +2,17 @@
   [
     {
       "primeraImg": "../../imagenes/cerrada/1.png",
+      "segundaImg": "",
       "opcionUno": "../../imagenes/respuestas_hora/100.png",
       "opcionDos": "../../imagenes/respuestas_hora/200.png",
       "opcionTres": "../../imagenes/respuestas_hora/600.png"
     },
     {
       "primeraImg": "../../imagenes/cerrada/4.png",
+      "segundaImg": "",
       "opcionUno": "../../imagenes/respuestas_hora/1200.png",
       "opcionDos": "../../imagenes/respuestas_hora/400.png",
-      "opcionTres": "../../imagenes/respuestas_hora/600.png",
+      "opcionTres": "../../imagenes/respuestas_hora/200.png",
       "respuestas": [
         "r_incorrecta",
         "r_correcta",
@@ -19,6 +21,7 @@
     },
     {
       "primeraImg": "../../imagenes/cerrada/6.png",
+      "segundaImg": "",
       "opcionUno": "../../imagenes/respuestas_hora/900.png",
       "opcionDos": "../../imagenes/respuestas_hora/1100.png",
       "opcionTres": "../../imagenes/respuestas_hora/600.png",
@@ -30,6 +33,7 @@
     },
     {
       "primeraImg": "../../imagenes/cerrada/10.png",
+      "segundaImg": "",
       "opcionUno": "../../imagenes/respuestas_hora/100.png",
       "opcionDos": "../../imagenes/respuestas_hora/1000.png",
       "opcionTres": "../../imagenes/respuestas_hora/1200.png",
@@ -41,6 +45,7 @@
     },
     {
       "primeraImg": "../../imagenes/cerrada/8.png",
+      "segundaImg": "",
       "opcionUno": "../../imagenes/respuestas_hora/700.png",
       "opcionDos": "../../imagenes/respuestas_hora/400.png",
       "opcionTres": "../../imagenes/respuestas_hora/800.png",

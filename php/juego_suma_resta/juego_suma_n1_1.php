@@ -10,7 +10,7 @@
         </a>
     </div>
 
-    <p class="instrucciones_cortas desc_nivel">Nivel 1 : 1/5 Juego suma con objetos</p>
+    <p class="instrucciones_cortas">Nivel 1 : 1/5 Juego suma con objetos</p>
     <div class="recuadro_blanco_fondo centrar">
         <!-- <h4> Puntuación actual:</h4> -->
         <div class="grupo_posibles_respuestas centrar" id='lugar_estrellas'>
@@ -42,81 +42,13 @@
     </div>
 </main>
 
-<script>
-    $(document).ready(function() {
-        var contaNivel = 0;
-        var contaSubNivel = 0;
-
-        var jsonNiveles = (function () {
-            var json = null;
-            $.ajax({
-                'async': false,
-                'global': false,
-                'url': "../juego_suma_resta/niveles.json",
-                'dataType': "json",
-                'success': function (data) {
-                    json = data;
-                }
-            });
-            return json;
-        })();
-
-        console.log(jsonNiveles)
-
-        $(".boton_respuesta").click(function(){
-
-            var respuesta = $(this).val();
-
-            console.log(respuesta);
-
-            if (respuesta === 'r_incorrecta') {
-                return;
-            }
-
-            if(contaSubNivel >= 4){
-                contaNivel++;
-                contaSubNivel = 0;
-            }else {
-                contaSubNivel++;
-            }
-
-            console.log(contaNivel);
-            console.log(contaSubNivel);
-
-            $('.desc_nivel').text('Nivel ' + (contaNivel+1) + ': ' + (contaSubNivel+1) + '/5 Juego suma con objetos');
-
-            var imagenPrimera = jsonNiveles[contaNivel][contaSubNivel]['primeraImg'];
-            var imagenSegunda = jsonNiveles[contaNivel][contaSubNivel]['segundaImg'];
-            var opcionUno = jsonNiveles[contaNivel][contaSubNivel]['opcionUno'];
-            var opcionDos = jsonNiveles[contaNivel][contaSubNivel]['opcionDos'];
-            var opcionTres = jsonNiveles[contaNivel][contaSubNivel]['opcionTres'];
-
-            var respuestas = jsonNiveles[contaNivel][contaSubNivel]['respuestas'];
-
-            $('#primero').attr("src", imagenPrimera.toString());
-            $('#segundo').attr("src", imagenSegunda.toString());
-            $('#img_1').attr("src", opcionUno.toString());
-            $('#img_2').attr("src", opcionDos.toString());
-            $('#img_3').attr("src", opcionTres.toString());
-
-
-
-            $(".boton_respuesta").each(function( index ) {
-                console.log('f-02');
-                $(this).attr("value", respuestas[index]);
-            });
-        });
-
-    });
-</script>
 
 <script type="text/javascript">
+    localStorage.setItem("archivo_niveles_ruta", "../juego_suma_resta/niveles.json");
 
-    function llevar_proximo_nvl(){
-
-    }
 
 </script>
+<script src="../../js/para_el_JSON.js"></script>
 
 </body>
 </html>
