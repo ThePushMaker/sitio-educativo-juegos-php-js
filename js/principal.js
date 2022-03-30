@@ -45,7 +45,6 @@ function notificacion_nivel_completado(){
     sonido.play();
     Swal.fire({
         icon: 'success',
-        type:'success',
         title:'¡Nivel completado!',
         confirmButtonColor:'#3085d6',
         confirmButtonText: '>> Vamos al siguiente',
@@ -80,7 +79,6 @@ function pasar_nivel_notificacion(){
     sonido.play();
     Swal.fire({
         icon: 'success',
-        type:'success',
         title:'¡Genial! ¡Encontraste la respuesta correcta!',
         confirmButtonColor:'#3BC362',
         confirmButtonText: '>> Dame otro reto',
@@ -125,7 +123,7 @@ function notificacion_respuesta_incorrecta(){
         Swal.showLoading()
         const b = Swal.getHtmlContainer().querySelector('b')
         timerInterval = setInterval(() => {
-        b.textContent = Swal.getTimerLeft()
+        // b.textContent = Swal.getTimerLeft()
         }, 100)
     },
     willClose: () => {
@@ -166,7 +164,6 @@ function sin_vidas_notificacion(){
     const sonido = cargarSonido("../../audios/muerte.ogg");
     sonido.play();
     Swal.fire({
-        type:'error',
         title:'¡Oh no, te has quedado sin vidas! Es el fin del juego',
         confirmButtonColor:'#D35E23',
         confirmButtonText:'Volver a la lista de juegos',

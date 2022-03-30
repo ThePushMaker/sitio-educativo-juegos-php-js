@@ -1,4 +1,7 @@
     $(document).ready(function() {
+        var nivel = localStorage.getItem("nivel")-1;
+        contaNivel= parseInt(nivel);
+
         var contaNivel = 0;
         var contaSubNivel = 0;
 
@@ -26,8 +29,6 @@
 
             $('.desc').text('');
 
-            var nivel = localStorage.getItem("nivel");
-            contaNivel = parseInt(nivel)-1;
 
             console.log("script nivel: " + nivel);
             console.log(jsonNiveles);

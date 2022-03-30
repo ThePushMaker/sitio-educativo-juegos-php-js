@@ -109,7 +109,7 @@
       "primeraImg": "../../imagenes/medias_y_alternas/1030.png",
       "segundaImg": "",
       "opcionUno": "../../imagenes/respuestas_hora/900.png",
-      "opcionDos": ".../../imagenes/respuestas_hora/1030.png",
+      "opcionDos": "../../imagenes/respuestas_hora/1030.png",
       "opcionTres": "../../imagenes/respuestas_hora/1000.png",
       "respuestas": [
         "r_incorrecta",

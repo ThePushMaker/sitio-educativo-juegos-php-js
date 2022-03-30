@@ -52,6 +52,7 @@
 
     <script type="text/javascript">
         localStorage.setItem("archivo_niveles_ruta", "../juego_reloj/niveles.json");
+
     </script> 
     <script src="../../js/para_el_JSON.js"></script>  
     
