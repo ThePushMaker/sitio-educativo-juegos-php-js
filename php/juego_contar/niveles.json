@@ -58,9 +58,28 @@
   ],
   [
     {
+      "primeraImg": "../../imagenes/numero_faltante/-11.png",
+      "segundaImg": "",
+      "opcionUno": "../../imagenes/numero_faltante/11.png",
+      "opcionDos": "../../imagenes/numero_faltante/1.png",
+      "opcionTres": "../../imagenes/numero_faltante/9.png",
+      "respuestas": [
+        "r_correcta",
+        "r_incorrecta",
+        "r_incorrecta"
+      ]
     },
     {
+      "primeraImg": "../../imagenes/numero_faltante/-8.png",
+      "segundaImg": "",
+      "opcionUno": "../../imagenes/numero_faltante/20.png",
+      "opcionDos": "../../imagenes/numero_faltante/11.png",
+      "opcionTres": "../../imagenes/numero_faltante/8.png",
+      "respuestas": [
+        "r_incorrecta",
+        "r_incorrecta",
+        "r_correcta"
+      ]
     }
   ]
 ]
-

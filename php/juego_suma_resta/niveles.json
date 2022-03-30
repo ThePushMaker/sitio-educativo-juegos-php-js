@@ -58,8 +58,28 @@
   ],
   [
     {
+      "primeraImg": "../../imagenes/Numeros/5.png",
+      "segundaImg": "../../imagenes/Numeros/3.png",
+      "opcionUno": "../../imagenes/Numeros/7.png",
+      "opcionDos": "../../imagenes/Numeros/9.png",
+      "opcionTres": "../../imagenes/Numeros/8.png",
+      "respuestas": [
+        "r_incorrecta",
+        "r_incorrecta",
+        "r_correcta"
+      ]
     },
     {
+      "primeraImg": "../../imagenes/Numeros/2.png",
+      "segundaImg": "../../imagenes/Numeros/2.png",
+      "opcionUno": "../../imagenes/Numeros/4.png",
+      "opcionDos": "../../imagenes/Numeros/6.png",
+      "opcionTres": "../../imagenes/Numeros/2.png",
+      "respuestas": [
+        "r_correcta",
+        "r_incorrecta",
+        "r_incorrecta"
+      ]
     }
   ]
 ]

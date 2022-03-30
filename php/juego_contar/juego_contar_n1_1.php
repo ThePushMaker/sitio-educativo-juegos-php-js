@@ -11,13 +11,13 @@
         </a>
     </div>
     
-    <p class="instrucciones_cortas">Nivel 1 : 1/5 Contar con objetos</p>
+    <!-- <p class="instrucciones_cortas">Nivel 1 : 1/5 Contar con objetos</p> -->
         <div class="recuadro_blanco_fondo centrar">
             <!-- <h4> Puntuación actual:</h4> -->
             <div class="grupo_posibles_respuestas centrar" id='lugar_estrellas'>
                  <img class="img_estrellas_ejercicio" src="../../imagenes/3_estrellas.png">
             </div>
-        <p class="instrucciones_cortas">¿Cuántos carros hay?</p>
+        <p class="instrucciones_cortas">¿Cuál es el numero correcto?</p>
              <div class="grupo_posibles_respuestas img_ejercicio_resolver centrar">
                 <div>
                     <img src="../../imagenes/carro/Carro 20.png" class=" centrar" id="primero" style="margin-top:20px; width:100%;"> 
@@ -41,7 +41,7 @@
     </main>
 
     <script type="text/javascript">
-        localStorage.setItem("archivo_niveles_ruta", "../juego_reloj/niveles.json");
+        localStorage.setItem("archivo_niveles_ruta", "../juego_contar/niveles.json");
 
     </script>
     <script src="../../js/para_el_JSON.js"></script>    

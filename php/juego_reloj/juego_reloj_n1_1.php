@@ -11,7 +11,7 @@
     </div>
 
         
-    <p class="instrucciones_cortas">Nivel 1 : 1/5 Horas en punto</p>
+    <!-- <p class="instrucciones_cortas">Nivel 1 : 1/5 Horas en punto</p> -->
         <div class="recuadro_blanco_fondo centrar">
             <!-- <h4> Puntuación actual:</h4> -->
             <div class="grupo_posibles_respuestas centrar" id='lugar_estrellas'>

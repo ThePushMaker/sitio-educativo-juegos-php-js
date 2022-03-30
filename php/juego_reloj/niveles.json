@@ -58,8 +58,28 @@
   ],
   [
     {
+      "primeraImg": "../../imagenes/medias_y_alternas/130.png",
+      "segundaImg": "",
+      "opcionUno": "../../imagenes/respuestas_hora/130.png",
+      "opcionDos": "../../imagenes/respuestas_hora/145.png",
+      "opcionTres": "../../imagenes/respuestas_hora/300.png",
+      "respuestas": [
+        "r_correcta",
+        "r_incorrecta",
+        "r_incorrecta"
+      ]
     },
     {
+      "primeraImg": "../../imagenes/medias_y_alternas/330.png",
+      "segundaImg": "",
+      "opcionUno": "../../imagenes/respuestas_hora/330.png",
+      "opcionDos": "../../imagenes/respuestas_hora/830.png",
+      "opcionTres": "../../imagenes/respuestas_hora/500.png",
+      "respuestas": [
+        "r_correcta",
+        "r_incorrecta",
+        "r_incorrecta"
+      ]
     }
   ]
 ]
