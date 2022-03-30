@@ -10,7 +10,7 @@
         </a>
     </div>
 
-    <!-- <p class="instrucciones_cortas">Nivel 1 : 1/5 Juego suma con objetos</p> -->
+     <p class="instrucciones_cortas desc">Nivel de prueba!</p>
     <div class="recuadro_blanco_fondo centrar">
         <!-- <h4> Puntuación actual:</h4> -->
         <div class="grupo_posibles_respuestas centrar" id='lugar_estrellas'>

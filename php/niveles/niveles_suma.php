@@ -27,7 +27,7 @@
                     </a>
                 </div>   
                 <div class="btn_nivel_fondo">
-                    <a href="../juego_suma_resta/juego_suma_n1_1" class="btn_nivel boton_seleccionable btn_nivel_tam" >
+                    <a href="../juego_suma_resta/juego_suma_n1_1?nivel=1" class="btn_nivel boton_seleccionable btn_nivel_tam" >
                         <div>
                            <h2>Nivel 1  - Suma con objetos</h2> 
                         </div>
@@ -96,7 +96,7 @@
 
     <script type="text/javascript">
        
-       localStorage.setItem('cont_estrellas', 3)
+       localStorage.setItem('cont_estrellas', 3);
 
 
     </script> 

@@ -18,6 +18,14 @@
 
         $(".boton_respuesta").click(function(){
 
+/*            var limite = localStorage.getItem("limite");
+            if(contaNivel>parseInt(limite)) {
+                alert("se ha completado el juego!");
+                return;
+            }*/
+
+            $('.desc').text('');
+
             var nivel = localStorage.getItem("nivel");
             contaNivel = parseInt(nivel)-1;
 
@@ -48,7 +56,6 @@
                 localStorage.setItem('cont_estrellas', cont_estrellas)//7
                 return;
             }
-
 
             console.log("Nivel: "+contaNivel);
             console.log("subnivel: "+contaSubNivel);

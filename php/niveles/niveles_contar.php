@@ -26,7 +26,7 @@
                 </div>
                 
                 <div class="btn_nivel_fondo">
-                    <a href="../juego_contar/juego_contar_n1_1" class="btn_nivel boton_seleccionable btn_nivel_tam">  
+                    <a href="../juego_contar/juego_contar_n1_1?nivel=1" class="btn_nivel boton_seleccionable btn_nivel_tam">
                         <div>
                             <h2>Nivel 1 - Contar con objetos</h2>
                         </div>          
@@ -37,7 +37,7 @@
                 </div>
                 
                 <div class="btn_nivel_fondo">
-                    <a href="../juego_contar/juego_contar_n1_1" class="btn_nivel boton_seleccionable btn_nivel_tam">
+                    <a href="../juego_contar/juego_contar_n1_1?nivel=2" class="btn_nivel boton_seleccionable btn_nivel_tam">
                         <div>
                             <h2>Nivel 2 - Completar series</h2>
                         </div>
@@ -48,7 +48,7 @@
                 </div>
                 
                 <div class="btn_nivel_fondo">
-                    <a href="../juego_contar/juego_contar_n1_1" class="btn_nivel boton_seleccionable btn_nivel_tam">
+                    <a href="../juego_contar/juego_contar_n1_1?nivel=3" class="btn_nivel boton_seleccionable btn_nivel_tam">
                         <div>
                             <h2>Nivel 3 - Ejercicios combinados</h2>
                         </div>
