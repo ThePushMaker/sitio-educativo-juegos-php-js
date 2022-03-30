@@ -36,7 +36,7 @@
                     </a>
                 </div>
                 <div class="btn_nivel_fondo">
-                    <a href="../juego_reloj/juego_reloj_n2_1"" class="btn_nivel boton_seleccionable btn_nivel_tam">  
+                    <a href="../juego_reloj/juego_reloj_n1_1"" class="btn_nivel boton_seleccionable btn_nivel_tam">  
                         <div>
                             <h2>Nivel 2  - Horas y media</h2>
                         </div>
@@ -46,7 +46,7 @@
                     </a>
                 </div>
                 <div class="btn_nivel_fondo">
-                    <a href="../juego_reloj/juego_reloj_n3_1"" class="btn_nivel boton_seleccionable btn_nivel_tam">  
+                    <a href="../juego_reloj/juego_reloj_n1_1"" class="btn_nivel boton_seleccionable btn_nivel_tam">  
                         <div>
                             <h2>Nivel 3  - Horas y minutos</h2>
                         </div>
@@ -57,7 +57,7 @@
                     </a>
                 </div>
                 <div class="btn_nivel_fondo">
-                    <a href="../juego_reloj/juego_reloj_n4_1"" class="btn_nivel boton_seleccionable btn_nivel_tam">  
+                    <a href="../juego_reloj/juego_reloj_n1_1"" class="btn_nivel boton_seleccionable btn_nivel_tam">  
                         <div>
                             <h2>Nivel 4  - Identificar manecillas</h2>
                         </div>
@@ -68,7 +68,7 @@
                     </a>
                 </div>
                 <div class="btn_nivel_fondo">
-                    <a href="../juego_reloj/juego_reloj_n5_1"" class="btn_nivel boton_seleccionable btn_nivel_tam">  
+                    <a href="../juego_reloj/juego_reloj_n1_1"" class="btn_nivel boton_seleccionable btn_nivel_tam">  
                         <div>
                             <h2>Nivel 5  - Ejercicios combinados</h2>
                         </div>

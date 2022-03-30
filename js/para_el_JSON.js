@@ -72,7 +72,6 @@
             $('#img_3').attr("src", opcionTres.toString());
 
 
-
             $(".boton_respuesta").each(function( index ) {
                 console.log('f-02');
                 $(this).attr("value", respuestas[index]);
