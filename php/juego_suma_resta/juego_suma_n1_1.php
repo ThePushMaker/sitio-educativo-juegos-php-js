@@ -44,9 +44,10 @@
 
 
 <script type="text/javascript">
+    const urlParams = new URLSearchParams(window.location.search);
+    const nivel = urlParams.get('nivel');
     localStorage.setItem("archivo_niveles_ruta", "../juego_suma_resta/niveles.json");
-
-
+    localStorage.setItem("nivel", nivel);
 </script>
 <script src="../../js/para_el_JSON.js"></script>
 

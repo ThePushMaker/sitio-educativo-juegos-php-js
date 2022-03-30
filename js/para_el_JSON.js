@@ -16,9 +16,13 @@
             return json;
         })();
 
-        console.log(jsonNiveles)
-
         $(".boton_respuesta").click(function(){
+
+            var nivel = localStorage.getItem("nivel");
+            contaNivel = parseInt(nivel)-1;
+
+            console.log("script nivel: " + nivel);
+            console.log(jsonNiveles);
 
             var respuesta = $(this).val();
 

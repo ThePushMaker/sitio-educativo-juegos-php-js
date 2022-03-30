@@ -37,7 +37,7 @@
                     </a>
                 </div>  
                 <div class="btn_nivel_fondo">
-                    <a href="../juego_suma_resta/juego_suma_n1_1" class="btn_nivel boton_seleccionable btn_nivel_tam" >
+                    <a href="../juego_suma_resta/juego_suma_n1_1?nivel=2" class="btn_nivel boton_seleccionable btn_nivel_tam" >
                         <div>
                            <h2>Nivel 2  - Suma con numeros</h2> 
                         </div>
@@ -57,7 +57,7 @@
                     </a>
                 </div>  
                 <div class="btn_nivel_fondo">
-                    <a href="../juego_suma_resta/juego_suma_n1_1" class="btn_nivel boton_seleccionable btn_nivel_tam" >
+                    <a href="../juego_suma_resta/juego_suma_n1_1?nivel=3" class="btn_nivel boton_seleccionable btn_nivel_tam" >
                         <div>
                            <h2>Nivel 3  - Resta con objetos</h2> 
                         </div>
@@ -67,7 +67,7 @@
                     </a>
                 </div> 
                 <div class="btn_nivel_fondo">
-                    <a href="../juego_suma_resta/juego_suma_n1_1" class="btn_nivel boton_seleccionable btn_nivel_tam" >
+                    <a href="../juego_suma_resta/juego_suma_n1_1?nivel=4" class="btn_nivel boton_seleccionable btn_nivel_tam" >
                         <div>
                            <h2>Nivel 4  - Resta con numeros</h2> 
                         </div>
@@ -77,7 +77,7 @@
                     </a>
                 </div> 
                 <div class="btn_nivel_fondo">
-                    <a href="../juego_suma_resta/juego_suma_n1_1" class="btn_nivel boton_seleccionable btn_nivel_tam" >
+                    <a href="../juego_suma_resta/juego_suma_n1_1?nivel=5" class="btn_nivel boton_seleccionable btn_nivel_tam" >
                         <div>
                            <h2>Nivel 5  - Ejercicios combinados</h2> 
                         </div>
