@@ -14,7 +14,7 @@
     <div class="recuadro_blanco_fondo centrar">
             <p class="instrucciones_cortas">Video introducción : Juego reloj</p>
         
-            <iframe class="centrar" width="700px" height="500" src="https://www.youtube.com/embed/x0azH56EjKQ?autoplay=1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <iframe class="centrar tam_video"  src="https://www.youtube.com/embed/x0azH56EjKQ?autoplay=1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
                 <p style="text-align:center;">Referencia: Canal Cosas de Peques. (18 de agosto de 2015). Horas del reloj para niños - Aprender las horas - Vídeos educativos para niños [Archivo de video]. Youtube. https://www.youtube.com/watch?v=x0azH56EjKQ</p>
 

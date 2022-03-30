@@ -10,6 +10,7 @@
 }
 header{
     background-color: var(--primario);
+    
     display:flex;
     justify-content: space-around;
     background: -webkit-linear-gradient(right, #2c53bd, #60B6E9, #35ca9d, #2c53bd);
@@ -18,6 +19,7 @@ header{
     background: linear-gradient(right, #2c53bd, #60B6E9, #35ca9d, #2c53bd);
     -webkit-box-shadow: 0px 11px 16px -4px rgba(0,0,0,0.79); 
     box-shadow: 0px 11px 16px -4px rgba(0,0,0,0.79);
+    
 }
 body{
     background-color: var(--fondo);
@@ -43,9 +45,13 @@ h4{
     padding-left: 8%;
 }
 a{
-    color:#007bff;
+    color:#e61867;
     text-decoration:none;
-    background-color:transparent
+    background-color:transparent;
+    text-shadow: .5px .5px .5px rgb(15, 15, 15);
+    -webkit-text-stroke-color: rgb(8, 8, 8);
+  -webkit-text-stroke-width: .6px;
+    
   }
 a:hover{ /*Hipervinculos con cursor encima*/
     color:#0056b3;
@@ -55,10 +61,11 @@ a:hover{ /*Hipervinculos con cursor encima*/
     margin:auto;
 }
 .imagen_fondo{
-    background-size: 100%;
+    /* background-size: 100%; */
+    background-repeat: repeat;
 }
 .recuadro_blanco_fondo{
-    background-color: white;
+    background-color: rgba(255, 255, 255, 0.911);
     width: 80%;
     margin-top: 3%;
     margin-bottom: 3%;
@@ -79,7 +86,9 @@ a:hover{ /*Hipervinculos con cursor encima*/
     border-radius: 5%;
     border-width: 3px;
     border-style: solid;
-    border-color: rgb(24, 8, 68);
+    border-color: rgb(8, 8, 8);
+    width: 250px;
+    height: 350px;
 }
 @media (max-width: 540px){
     .recuadro_fondo_juego_home{
@@ -132,12 +141,12 @@ a:hover{ /*Hipervinculos con cursor encima*/
     margin-bottom: 10%;
 }
 
-@media (max-width: 540px){
+@media (max-width: 768px){
     .grupo_iconos_juegos_home{
         margin-top: 8%;
         margin-left: 7%;
         margin-right: 7%;
-        justify-content: space-evenly;
+        justify-content: space-between;
         align-items: center;
         flex-direction: column-reverse;
     }
@@ -241,6 +250,13 @@ a:hover{ /*Hipervinculos con cursor encima*/
     display:flex;
     justify-content: space-around;
 }
+@media (max-width: 768px) {
+    .perfiles{
+        width:auto;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+}
 @media (max-width: 375px) {
     .perfiles{
         width:auto;
@@ -269,7 +285,7 @@ a:hover{ /*Hipervinculos con cursor encima*/
     display: block;
     position: relative;
     z-index: 1;
-    border-radius: 40px 5px;
+    border-radius: 40px 40px;
     overflow: hidden;
     margin: 0 auto;
     margin-bottom: 2%;
@@ -277,8 +293,8 @@ a:hover{ /*Hipervinculos con cursor encima*/
     border-width: 2px;
     border-style: solid;
     border-color: rgb(24, 8, 68);
-    margin-right: 32%;
-    margin-left: 32%;
+    margin-right: 33%;
+    margin-left: 33%;
 }
 @media (max-width: 540px) {
     .btn_nivel{
@@ -294,13 +310,24 @@ a:hover{ /*Hipervinculos con cursor encima*/
     margin-top: 1%;
     margin-bottom: 1%;
     text-align: center;
+    color:rgb(253, 198, 46);
     font-weight: bold;
+    text-shadow: 4px 4px 4px rgb(15, 15, 15);
+    -webkit-text-stroke-color: rgb(8, 8, 8);
+  -webkit-text-stroke-width: 2px;
+
 }
+
+
 .subtitulo_juego_home{
     font-size: 1.3rem; 
     margin-top: 5%;
     text-align: center;
     font-weight: bold;
+    color:rgb(253, 198, 46);
+    text-shadow: .7px .7px .7px rgb(15, 15, 15);
+    -webkit-text-stroke-color: rgb(8, 8, 8);
+  -webkit-text-stroke-width: .5px;
 }
 .grupo_iconos_descripcion_juego_home{
     margin-top: 8%;
@@ -320,7 +347,7 @@ a:hover{ /*Hipervinculos con cursor encima*/
     -webkit-box-shadow: 0px 11px 16px -4px rgba(0,0,0,0.79); 
     box-shadow: 0px 11px 16px -4px rgba(0,0,0,0.79);
     background-color: #c3e3f5;
-    background: -webkit-linear-gradient(right, #7dabdf, #c3e3f5, #c3e3f5, #7dabdf);
+    background: -webkit-linear-gradient(right, #7dabdfde, #c3e3f5, #c3e3f5, #7dabdfde);
     background: -o-linear-gradient(right, #7dabdf, #c3e3f5, #c3e3f5, #7dabdf);
     background: -moz-linear-gradient(right, #7dabdf, #c3e3f5, #c3e3f5, #7dabdf);
     background: linear-gradient(right, #7dabdf, #c3e3f5, #c3e3f5, #7dabdf);
@@ -374,7 +401,63 @@ a:hover{ /*Hipervinculos con cursor encima*/
 }
 
 
+.imagen_modo_juego{
 
+        height: 250px;
+        width: 250px;
+        object-fit: cover;
+   
+      
+}
+.imagen_nivel{
+    height: 100%;
+    width: 100%;
+    object-fit:fill;
+    
+}
+.imagen_nivel_video{
+    
+    height: 90%;
+    width: 75%;
+    object-fit:fill;
+    margin-top: 15%;
+    margin-bottom: 5%;
+    
+}
 
+.btn_nivel_fondo{
+    display: flex;
+    width: 100%;
+    height:100%;
+    justify-content: center;
+   
+}
+.btn_nivel_tam{
+    width: 300px;
+    height:300px;
+}
 
-
+.tam_video
+{
+    width:600px; 
+    height:500px;
+}
+@media (max-width: 768px) {
+    .tam_video{
+        width:400px; 
+        height:300px;
+       
+    }
+}
+@media (max-width: 480px) {
+    .tam_video{
+        width:300px; 
+        height:200px;
+    }
+}
+@media (max-width: 360px) {
+    .tam_video{
+        width:220px; 
+        height:150px;
+    }
+}

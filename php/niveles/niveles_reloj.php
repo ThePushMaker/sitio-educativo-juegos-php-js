@@ -10,101 +10,74 @@
     </div>
 
         <div class="recuadro_blanco_fondo centrar">
-            <p class="instrucciones_cortas">¡Elige un nivel en juego de reloj!</p>
-
-            <a href="../videos/video_reloj" class="btn_nivel boton_seleccionable_video">
-           
-                <h2>  
-                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-clock " width="20" height="20" viewBox="0 0 24 24" stroke-width="2" stroke="#2c3e50" fill="none" stroke-linecap="round" stroke-linejoin="round">
-                <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
-                <circle cx="12" cy="12" r="9" />
-                <polyline points="12 7 12 12 15 15" />
-                </svg> 
-                Video introducción
-                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-clock" width="20" height="20" viewBox="0 0 24 24" stroke-width="2" stroke="#2c3e50" fill="none" stroke-linecap="round" stroke-linejoin="round">
-                <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
-                <circle cx="12" cy="12" r="9" />
-                <polyline points="12 7 12 12 15 15" />
-                </svg>
-            </h2>
-            </a>
-
-            <a href="../juego_reloj/juego_reloj_n1_1" class="btn_nivel boton_seleccionable">
-                <h2>  
-                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-clock " width="20" height="20" viewBox="0 0 24 24" stroke-width="2" stroke="#2c3e50" fill="none" stroke-linecap="round" stroke-linejoin="round">
-                <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
-                <circle cx="12" cy="12" r="9" />
-                <polyline points="12 7 12 12 15 15" />
-                </svg> 
-                Nivel 1 - Horas en punto
-                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-clock" width="20" height="20" viewBox="0 0 24 24" stroke-width="2" stroke="#2c3e50" fill="none" stroke-linecap="round" stroke-linejoin="round">
-                <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
-                <circle cx="12" cy="12" r="9" />
-                <polyline points="12 7 12 12 15 15" />
-                </svg>
-            </h2>
-            </a>
-            <a href="../juego_reloj/juego_reloj_n2_1" class="btn_nivel boton_seleccionable">
-                
-                <h2>  
-                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-clock " width="20" height="20" viewBox="0 0 24 24" stroke-width="2" stroke="#2c3e50" fill="none" stroke-linecap="round" stroke-linejoin="round">
-                <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
-                <circle cx="12" cy="12" r="9" />
-                <polyline points="12 7 12 12 15 15" />
-                </svg> 
-                Nivel 2  - Horas y media
-                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-clock" width="20" height="20" viewBox="0 0 24 24" stroke-width="2" stroke="#2c3e50" fill="none" stroke-linecap="round" stroke-linejoin="round">
-                <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
-                <circle cx="12" cy="12" r="9" />
-                <polyline points="12 7 12 12 15 15" />
-                </svg>
-            </h2>
-            </a>
-            <a href="../juego_reloj/juego_reloj_n3_1" class="btn_nivel boton_seleccionable">
-                <h2>  
-                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-clock" width="20" height="20" viewBox="0 0 24 24" stroke-width="2" stroke="#2c3e50" fill="none" stroke-linecap="round" stroke-linejoin="round">
-                    <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
-                    <circle cx="12" cy="12" r="9" />
-                    <polyline points="12 7 12 12 15 15" />
-                </svg> 
-                Nivel 3  - Horas y minutos
-                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-clock" width="20" height="20" viewBox="0 0 24 24" stroke-width="2" stroke="#2c3e50" fill="none" stroke-linecap="round" stroke-linejoin="round">
-                <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
-                <circle cx="12" cy="12" r="9" />
-                <polyline points="12 7 12 12 15 15" />
-                </svg>
-            </h2>
-            </a>
-            <a href="../juego_reloj/juego_reloj_n4_1" class="btn_nivel boton_seleccionable">
-                <h2>  
-                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-clock " width="20" height="20" viewBox="0 0 24 24" stroke-width="2" stroke="#2c3e50" fill="none" stroke-linecap="round" stroke-linejoin="round">
-                <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
-                <circle cx="12" cy="12" r="9" />
-                <polyline points="12 7 12 12 15 15" />
-                </svg> 
-                Nivel 4 - Identificar manecillas
-                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-clock" width="20" height="20" viewBox="0 0 24 24" stroke-width="2" stroke="#2c3e50" fill="none" stroke-linecap="round" stroke-linejoin="round">
-                <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
-                <circle cx="12" cy="12" r="9" />
-                <polyline points="12 7 12 12 15 15" />
-                </svg>
-            </h2>
-            </a>
-            <a href="../juego_reloj/juego_reloj_n5_1" class="btn_nivel boton_seleccionable">
-                <h2>  
-                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-clock " width="20" height="20" viewBox="0 0 24 24" stroke-width="2" stroke="#2c3e50" fill="none" stroke-linecap="round" stroke-linejoin="round">
-                <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
-                <circle cx="12" cy="12" r="9" />
-                <polyline points="12 7 12 12 15 15" />
-                </svg> 
-                Nivel 5 - Ejercicios combinados
-                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-clock" width="20" height="20" viewBox="0 0 24 24" stroke-width="2" stroke="#2c3e50" fill="none" stroke-linecap="round" stroke-linejoin="round">
-                <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
-                <circle cx="12" cy="12" r="9" />
-                <polyline points="12 7 12 12 15 15" />
-                </svg>
-            </h2>
-            </a>
+            <div>
+                 <p class="instrucciones_cortas">¡Elige un nivel en juego de reloj!</p>
+            </div>
+            <div style="display:grid; grid-template-columns: repeat(1, 1fr);  grid-gap: 0px;">
+                <div class="btn_nivel_fondo">
+                    <a href="../videos/video_reloj" class="btn_nivel boton_seleccionable_video btn_nivel_tam">
+                        <div>
+                            <h2>Video introducción</h2>
+                        </div>
+                        <p style="text-align:center;" >
+                            <img src="../../imagenes/youtube.png" alt="youtube" class="imagen_nivel_video">
+                        </p>
+                    </a>
+                </div>
+                <div class="btn_nivel_fondo">
+                    <a href="../juego_reloj/juego_reloj_n1_1"" class="btn_nivel boton_seleccionable btn_nivel_tam">  
+                        <div>
+                            <h2>Nivel 1 - Horas en punto</h2>
+                        </div>
+                        
+                            <p style="text-align:center;" >
+                                <img src="../../imagenes/niveles-reloj/1.jpg" alt="uno" class="imagen_nivel">
+                            </p>        
+                    </a>
+                </div>
+                <div class="btn_nivel_fondo">
+                    <a href="../juego_reloj/juego_reloj_n2_1"" class="btn_nivel boton_seleccionable btn_nivel_tam">  
+                        <div>
+                            <h2>Nivel 2  - Horas y media</h2>
+                        </div>
+                            <p style="text-align:center;" >
+                                <img src="../../imagenes/niveles-reloj/2.jpg" alt="uno" class="imagen_nivel">
+                            </p>        
+                    </a>
+                </div>
+                <div class="btn_nivel_fondo">
+                    <a href="../juego_reloj/juego_reloj_n3_1"" class="btn_nivel boton_seleccionable btn_nivel_tam">  
+                        <div>
+                            <h2>Nivel 3  - Horas y minutos</h2>
+                        </div>
+                        
+                            <p style="text-align:center;" >
+                                <img src="../../imagenes/niveles-reloj/3.jpg" alt="uno" class="imagen_nivel">
+                            </p>        
+                    </a>
+                </div>
+                <div class="btn_nivel_fondo">
+                    <a href="../juego_reloj/juego_reloj_n4_1"" class="btn_nivel boton_seleccionable btn_nivel_tam">  
+                        <div>
+                            <h2>Nivel 4  - Identificar manecillas</h2>
+                        </div>
+                        
+                            <p style="text-align:center;" >
+                                <img src="../../imagenes/niveles-reloj/4.jpg" alt="uno" class="imagen_nivel">
+                            </p>        
+                    </a>
+                </div>
+                <div class="btn_nivel_fondo">
+                    <a href="../juego_reloj/juego_reloj_n5_1"" class="btn_nivel boton_seleccionable btn_nivel_tam">  
+                        <div>
+                            <h2>Nivel 5  - Ejercicios combinados</h2>
+                        </div>
+                        
+                            <p style="text-align:center;" >
+                                <img src="../../imagenes/niñoreloj.jpg" alt="uno" class="imagen_nivel">
+                            </p>        
+                    </a>
+                </div>
            
         </div>
 

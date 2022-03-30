@@ -13,7 +13,7 @@
 
     <div class="recuadro_blanco_fondo centrar">
         <p class="instrucciones_cortas">Video introducción resta : Juego suma y resta</p>
-        <iframe class="centrar" width="700px" height="500" src="https://www.youtube.com/embed/42vjqtleG9E?autoplay=1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        <iframe class="centrar tam_video" src="https://www.youtube.com/embed/42vjqtleG9E?autoplay=1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
             <p style="text-align:center;">Referencia: Happy Learning Español. (16 de octubre de 2018). Aprendiendo a restar La Resta | Vídeos Educativos para niños [Archivo de video]. Youtube. https://www.youtube.com/watch?v=42vjqtleG9E&t</p>
         </div>

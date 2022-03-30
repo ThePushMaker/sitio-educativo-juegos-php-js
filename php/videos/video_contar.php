@@ -14,7 +14,7 @@
     <div class="recuadro_blanco_fondo centrar">
         <p class="instrucciones_cortas">Video introducción : Juego contar</p>
 
-        <iframe class="centrar" width="700px" height="500" src="https://www.youtube.com/embed/CQoLqBBPaTk?autoplay=1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        <iframe class="centrar tam_video"  src="https://www.youtube.com/embed/CQoLqBBPaTk?autoplay=1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
             <p style="text-align:center;">Referencia: Toobys Español. (8 de julio de 2014). Contar hasta 20 - Canción Infantil - Toobys [Archivo de video]. Youtube. https://www.youtube.com/watch?v=CQoLqBBPaTk&t</p>
 

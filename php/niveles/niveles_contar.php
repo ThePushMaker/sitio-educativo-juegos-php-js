@@ -10,92 +10,57 @@
     </div>
 
         <div class="recuadro_blanco_fondo centrar">
-            <p class="instrucciones_cortas"> ¡Elige un nivel de juego de contar!</p>
+            <div class=" centrar">
+                <p class="instrucciones_cortas"> ¡Elige un nivel de juego de contar!</p>
+            </div>
+            <div style="display:grid; grid-template-columns: repeat(1, 1fr);  grid-gap: 0px;">
+                <div class="btn_nivel_fondo">
+                    <a href="../videos/video_contar" class="btn_nivel boton_seleccionable_video btn_nivel_tam" >
+                        <div>
+                           <h2>Video introducción</h2> 
+                        </div>
+                        <p style="text-align:center;" >
+                            <img src="../../imagenes/youtube.png" alt="youtube" class="imagen_nivel_video">
+                        </p>
+                    </a>
+                </div>
+                
+                <div class="btn_nivel_fondo">
+                    <a href="../juego_contar/juego_contar_n1_1" class="btn_nivel boton_seleccionable btn_nivel_tam">  
+                        <div>
+                            <h2>Nivel 1 - Contar con objetos</h2>
+                        </div>          
+                        <p style="text-align:center;" >
+                            <img src="../../imagenes/contar/1.jpg" alt="uno" class="imagen_nivel">
+                        </p>     
+                    </a>
+                </div>
+                
+                <div class="btn_nivel_fondo">
+                    <a href="../juego_contar/juego_contar_n2_1" class="btn_nivel boton_seleccionable btn_nivel_tam">
+                        <div>
+                            <h2>Nivel 2 - Completar series</h2>
+                        </div>
+                        <p style="text-align:center" >
+                            <img src="../../imagenes/contar/2.jpg" alt="dos" class="imagen_nivel">
+                        </p>
+                    </a>
+                </div>
+                
+                <div class="btn_nivel_fondo">
+                    <a href="../juego_contar/juego_contar_n3_1" class="btn_nivel boton_seleccionable btn_nivel_tam">
+                        <div>
+                            <h2>Nivel 3 - Ejercicios combinados</h2>
+                        </div>
+                        <p style="text-align:center" >
+                            <img src="../../imagenes/contar/3.jpg" alt="tres" class="imagen_nivel">
+                        </p>
+                    </a>
+                </div>
+                
+            </div>
 
-            <a href="../videos/video_contar" class="btn_nivel boton_seleccionable_video">
-                <h2>
-                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-sort-ascending-numbers" width="20" height="20" viewBox="0 0 24 24" stroke-width="2" stroke="#2c3e50" fill="none" stroke-linecap="round" stroke-linejoin="round">
-                <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
-                <path d="M4 15l3 3l3 -3" />
-                <path d="M7 6v12" />
-                <path d="M17 3a2 2 0 0 1 2 2v3a2 2 0 1 1 -4 0v-3a2 2 0 0 1 2 -2z" />
-                <circle cx="17" cy="16" r="2" />
-                <path d="M19 16v3a2 2 0 0 1 -2 2h-1.5" />
-                </svg>
-                Video introducción
-                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-sort-ascending-numbers" width="20" height="20" viewBox="0 0 24 24" stroke-width="2" stroke="#2c3e50" fill="none" stroke-linecap="round" stroke-linejoin="round">
-                <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
-                <path d="M4 15l3 3l3 -3" />
-                <path d="M7 6v12" />
-                <path d="M17 3a2 2 0 0 1 2 2v3a2 2 0 1 1 -4 0v-3a2 2 0 0 1 2 -2z" />
-                <circle cx="17" cy="16" r="2" />
-                <path d="M19 16v3a2 2 0 0 1 -2 2h-1.5" />
-                </svg>
-                </h2>
-            </a>
-            <a href="../juego_contar/juego_contar_n1_1" class="btn_nivel boton_seleccionable">
-                <h2>
-                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-sort-ascending-numbers" width="20" height="20" viewBox="0 0 24 24" stroke-width="2" stroke="#2c3e50" fill="none" stroke-linecap="round" stroke-linejoin="round">
-                <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
-                <path d="M4 15l3 3l3 -3" />
-                <path d="M7 6v12" />
-                <path d="M17 3a2 2 0 0 1 2 2v3a2 2 0 1 1 -4 0v-3a2 2 0 0 1 2 -2z" />
-                <circle cx="17" cy="16" r="2" />
-                <path d="M19 16v3a2 2 0 0 1 -2 2h-1.5" />
-                </svg>
-                Nivel 1 - Contar con objetos
-                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-sort-ascending-numbers" width="20" height="20" viewBox="0 0 24 24" stroke-width="2" stroke="#2c3e50" fill="none" stroke-linecap="round" stroke-linejoin="round">
-                <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
-                <path d="M4 15l3 3l3 -3" />
-                <path d="M7 6v12" />
-                <path d="M17 3a2 2 0 0 1 2 2v3a2 2 0 1 1 -4 0v-3a2 2 0 0 1 2 -2z" />
-                <circle cx="17" cy="16" r="2" />
-                <path d="M19 16v3a2 2 0 0 1 -2 2h-1.5" />
-                </svg>
-                </h2>
-            </a>
-            <a href="../juego_contar/juego_contar_n2_1" class="btn_nivel boton_seleccionable">
-                <h2>
-                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-sort-ascending-numbers" width="20" height="20" viewBox="0 0 24 24" stroke-width="2" stroke="#2c3e50" fill="none" stroke-linecap="round" stroke-linejoin="round">
-                <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
-                <path d="M4 15l3 3l3 -3" />
-                <path d="M7 6v12" />
-                <path d="M17 3a2 2 0 0 1 2 2v3a2 2 0 1 1 -4 0v-3a2 2 0 0 1 2 -2z" />
-                <circle cx="17" cy="16" r="2" />
-                <path d="M19 16v3a2 2 0 0 1 -2 2h-1.5" />
-                </svg>
-                Nivel 2 - Completar series
-                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-sort-ascending-numbers" width="20" height="20" viewBox="0 0 24 24" stroke-width="2" stroke="#2c3e50" fill="none" stroke-linecap="round" stroke-linejoin="round">
-                <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
-                <path d="M4 15l3 3l3 -3" />
-                <path d="M7 6v12" />
-                <path d="M17 3a2 2 0 0 1 2 2v3a2 2 0 1 1 -4 0v-3a2 2 0 0 1 2 -2z" />
-                <circle cx="17" cy="16" r="2" />
-                <path d="M19 16v3a2 2 0 0 1 -2 2h-1.5" />
-                </svg>
-                </h2>
-            </a>
-            <a href="../juego_contar/juego_contar_n3_1" class="btn_nivel boton_seleccionable">
-                <h2>
-                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-sort-ascending-numbers" width="20" height="20" viewBox="0 0 24 24" stroke-width="2" stroke="#2c3e50" fill="none" stroke-linecap="round" stroke-linejoin="round">
-                <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
-                <path d="M4 15l3 3l3 -3" />
-                <path d="M7 6v12" />
-                <path d="M17 3a2 2 0 0 1 2 2v3a2 2 0 1 1 -4 0v-3a2 2 0 0 1 2 -2z" />
-                <circle cx="17" cy="16" r="2" />
-                <path d="M19 16v3a2 2 0 0 1 -2 2h-1.5" />
-                </svg>
-                Nivel 3 - Ejercicios combinados
-                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-sort-ascending-numbers" width="20" height="20" viewBox="0 0 24 24" stroke-width="2" stroke="#2c3e50" fill="none" stroke-linecap="round" stroke-linejoin="round">
-                <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
-                <path d="M4 15l3 3l3 -3" />
-                <path d="M7 6v12" />
-                <path d="M17 3a2 2 0 0 1 2 2v3a2 2 0 1 1 -4 0v-3a2 2 0 0 1 2 -2z" />
-                <circle cx="17" cy="16" r="2" />
-                <path d="M19 16v3a2 2 0 0 1 -2 2h-1.5" />
-                </svg>
-                </h2>
-            </a>
+            
             <!-- <a href="juego_contar_n1_1.php" class="btn_nivel boton_seleccionable">
                 <h2>Nivel 4</h2>
             </a>

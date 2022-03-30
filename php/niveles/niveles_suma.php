@@ -11,170 +11,82 @@
     </div>
 
         <div class="recuadro_blanco_fondo centrar">
-            <p class="instrucciones_cortas"> ¡Elige un nivel de juego de suma y resta!</p>
-
-            <a href="../videos/video_suma" class="btn_nivel boton_seleccionable_video">
-                <h2>
-                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-battery-automotive" width="20" height="20" viewBox="0 0 24 24" stroke-width="2.0" stroke="#2c3e50" fill="none" stroke-linecap="round" stroke-linejoin="round">
-                <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
-                <rect x="3" y="6" width="18" height="14" rx="2" />
-                <path d="M6 6v-2" />
-                <line x1="19" y1="4" x2="19" y2="6" />
-                <line x1="6.5" y1="13" x2="9.5" y2="13" />
-                <line x1="14.5" y1="13" x2="17.5" y2="13" />
-                <line x1="16" y1="11.5" x2="16" y2="14.5" />
-                </svg>
-                Video introducción suma
-                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-battery-automotive" width="20" height="20" viewBox="0 0 24 24" stroke-width="2.0" stroke="#2c3e50" fill="none" stroke-linecap="round" stroke-linejoin="round">
-                <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
-                <rect x="3" y="6" width="18" height="14" rx="2" />
-                <path d="M6 6v-2" />
-                <line x1="19" y1="4" x2="19" y2="6" />
-                <line x1="6.5" y1="13" x2="9.5" y2="13" />
-                <line x1="14.5" y1="13" x2="17.5" y2="13" />
-                <line x1="16" y1="11.5" x2="16" y2="14.5" />
-                </svg>
-                </h2>
-            </a>
-            <a href="../juego_suma_resta/juego_suma_n1_1" class="btn_nivel boton_seleccionable">
-                <h2>
-                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-battery-automotive" width="20" height="20" viewBox="0 0 24 24" stroke-width="2.0" stroke="#2c3e50" fill="none" stroke-linecap="round" stroke-linejoin="round">
-                <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
-                <rect x="3" y="6" width="18" height="14" rx="2" />
-                <path d="M6 6v-2" />
-                <line x1="19" y1="4" x2="19" y2="6" />
-                <line x1="6.5" y1="13" x2="9.5" y2="13" />
-                <line x1="14.5" y1="13" x2="17.5" y2="13" />
-                <line x1="16" y1="11.5" x2="16" y2="14.5" />
-                </svg>
-                Nivel 1  - Suma con objetos
-                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-battery-automotive" width="20" height="20" viewBox="0 0 24 24" stroke-width="2.0" stroke="#2c3e50" fill="none" stroke-linecap="round" stroke-linejoin="round">
-                <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
-                <rect x="3" y="6" width="18" height="14" rx="2" />
-                <path d="M6 6v-2" />
-                <line x1="19" y1="4" x2="19" y2="6" />
-                <line x1="6.5" y1="13" x2="9.5" y2="13" />
-                <line x1="14.5" y1="13" x2="17.5" y2="13" />
-                <line x1="16" y1="11.5" x2="16" y2="14.5" />
-                </svg>
-                </h2>
-            </a>
-            <a href="../juego_suma_resta/juego_suma_n2_1" class="btn_nivel boton_seleccionable">
-                <h2>
-                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-battery-automotive" width="20" height="20" viewBox="0 0 24 24" stroke-width="2.0" stroke="#2c3e50" fill="none" stroke-linecap="round" stroke-linejoin="round">
-                <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
-                <rect x="3" y="6" width="18" height="14" rx="2" />
-                <path d="M6 6v-2" />
-                <line x1="19" y1="4" x2="19" y2="6" />
-                <line x1="6.5" y1="13" x2="9.5" y2="13" />
-                <line x1="14.5" y1="13" x2="17.5" y2="13" />
-                <line x1="16" y1="11.5" x2="16" y2="14.5" />
-                </svg>
-                Nivel 2  - Suma con numeros
-                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-battery-automotive" width="20" height="20" viewBox="0 0 24 24" stroke-width="2.0" stroke="#2c3e50" fill="none" stroke-linecap="round" stroke-linejoin="round">
-                <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
-                <rect x="3" y="6" width="18" height="14" rx="2" />
-                <path d="M6 6v-2" />
-                <line x1="19" y1="4" x2="19" y2="6" />
-                <line x1="6.5" y1="13" x2="9.5" y2="13" />
-                <line x1="14.5" y1="13" x2="17.5" y2="13" />
-                <line x1="16" y1="11.5" x2="16" y2="14.5" />
-                </svg>
-                </h2>
-            </a>
-            <a href="../videos/video_resta" class="btn_nivel boton_seleccionable_video">
-                <h2>
-                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-battery-automotive" width="20" height="20" viewBox="0 0 24 24" stroke-width="2.0" stroke="#2c3e50" fill="none" stroke-linecap="round" stroke-linejoin="round">
-                <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
-                <rect x="3" y="6" width="18" height="14" rx="2" />
-                <path d="M6 6v-2" />
-                <line x1="19" y1="4" x2="19" y2="6" />
-                <line x1="6.5" y1="13" x2="9.5" y2="13" />
-                <line x1="14.5" y1="13" x2="17.5" y2="13" />
-                <line x1="16" y1="11.5" x2="16" y2="14.5" />
-                </svg>
-                Video introducción resta 
-                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-battery-automotive" width="20" height="20" viewBox="0 0 24 24" stroke-width="2.0" stroke="#2c3e50" fill="none" stroke-linecap="round" stroke-linejoin="round">
-                <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
-                <rect x="3" y="6" width="18" height="14" rx="2" />
-                <path d="M6 6v-2" />
-                <line x1="19" y1="4" x2="19" y2="6" />
-                <line x1="6.5" y1="13" x2="9.5" y2="13" />
-                <line x1="14.5" y1="13" x2="17.5" y2="13" />
-                <line x1="16" y1="11.5" x2="16" y2="14.5" />
-                </svg>
-                </h2>
-            </a>
-            <a href="../juego_suma_resta/juego_suma_n3_1" class="btn_nivel boton_seleccionable">
-                <h2>
-                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-battery-automotive" width="20" height="20" viewBox="0 0 24 24" stroke-width="2.0" stroke="#2c3e50" fill="none" stroke-linecap="round" stroke-linejoin="round">
-                <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
-                <rect x="3" y="6" width="18" height="14" rx="2" />
-                <path d="M6 6v-2" />
-                <line x1="19" y1="4" x2="19" y2="6" />
-                <line x1="6.5" y1="13" x2="9.5" y2="13" />
-                <line x1="14.5" y1="13" x2="17.5" y2="13" />
-                <line x1="16" y1="11.5" x2="16" y2="14.5" />
-                </svg>
-                Nivel 3 - Resta con objetos
-                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-battery-automotive" width="20" height="20" viewBox="0 0 24 24" stroke-width="2.0" stroke="#2c3e50" fill="none" stroke-linecap="round" stroke-linejoin="round">
-                <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
-                <rect x="3" y="6" width="18" height="14" rx="2" />
-                <path d="M6 6v-2" />
-                <line x1="19" y1="4" x2="19" y2="6" />
-                <line x1="6.5" y1="13" x2="9.5" y2="13" />
-                <line x1="14.5" y1="13" x2="17.5" y2="13" />
-                <line x1="16" y1="11.5" x2="16" y2="14.5" />
-                </svg>
-                </h2>
-            </a>
-            <a href="../juego_suma_resta/juego_suma_n4_1" class="btn_nivel boton_seleccionable">
-                <h2>
-                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-battery-automotive" width="20" height="20" viewBox="0 0 24 24" stroke-width="2.0" stroke="#2c3e50" fill="none" stroke-linecap="round" stroke-linejoin="round">
-                <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
-                <rect x="3" y="6" width="18" height="14" rx="2" />
-                <path d="M6 6v-2" />
-                <line x1="19" y1="4" x2="19" y2="6" />
-                <line x1="6.5" y1="13" x2="9.5" y2="13" />
-                <line x1="14.5" y1="13" x2="17.5" y2="13" />
-                <line x1="16" y1="11.5" x2="16" y2="14.5" />
-                </svg>
-                Nivel 4  - Resta con numeros
-                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-battery-automotive" width="20" height="20" viewBox="0 0 24 24" stroke-width="2.0" stroke="#2c3e50" fill="none" stroke-linecap="round" stroke-linejoin="round">
-                <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
-                <rect x="3" y="6" width="18" height="14" rx="2" />
-                <path d="M6 6v-2" />
-                <line x1="19" y1="4" x2="19" y2="6" />
-                <line x1="6.5" y1="13" x2="9.5" y2="13" />
-                <line x1="14.5" y1="13" x2="17.5" y2="13" />
-                <line x1="16" y1="11.5" x2="16" y2="14.5" />
-                </svg>
-                </h2>
-            </a>
-            <a href="../juego_suma_resta/juego_suma_n5_1" class="btn_nivel boton_seleccionable">
-                <h2>
-                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-battery-automotive" width="20" height="20" viewBox="0 0 24 24" stroke-width="2.0" stroke="#2c3e50" fill="none" stroke-linecap="round" stroke-linejoin="round">
-                <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
-                <rect x="3" y="6" width="18" height="14" rx="2" />
-                <path d="M6 6v-2" />
-                <line x1="19" y1="4" x2="19" y2="6" />
-                <line x1="6.5" y1="13" x2="9.5" y2="13" />
-                <line x1="14.5" y1="13" x2="17.5" y2="13" />
-                <line x1="16" y1="11.5" x2="16" y2="14.5" />
-                </svg>
-                Nivel 5  - Ejercicios combinados
-                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-battery-automotive" width="20" height="20" viewBox="0 0 24 24" stroke-width="2.0" stroke="#2c3e50" fill="none" stroke-linecap="round" stroke-linejoin="round">
-                <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
-                <rect x="3" y="6" width="18" height="14" rx="2" />
-                <path d="M6 6v-2" />
-                <line x1="19" y1="4" x2="19" y2="6" />
-                <line x1="6.5" y1="13" x2="9.5" y2="13" />
-                <line x1="14.5" y1="13" x2="17.5" y2="13" />
-                <line x1="16" y1="11.5" x2="16" y2="14.5" />
-                </svg>
-                </h2>
-            </a>
             
+            <div>
+                <p class="instrucciones_cortas"> ¡Elige un nivel de juego de suma y resta!</p>
+            </div>
+            <div style="display:grid; grid-template-columns: repeat(1, 1fr);  grid-gap: 0px;">
+                <div class="btn_nivel_fondo">
+                    <a href="../videos/video_suma" class="btn_nivel boton_seleccionable_video btn_nivel_tam" >
+                        <div>
+                           <h2>Video introducción suma</h2> 
+                        </div>
+                        <p style="text-align:center;" >
+                            <img src="../../imagenes/youtube.png" alt="youtube" class="imagen_nivel_video">
+                        </p>
+                    </a>
+                </div>   
+                <div class="btn_nivel_fondo">
+                    <a href="../juego_suma_resta/juego_suma_n1_1" class="btn_nivel boton_seleccionable btn_nivel_tam" >
+                        <div>
+                           <h2>Nivel 1  - Suma con objetos</h2> 
+                        </div>
+                        <p style="text-align:center;" >
+                            <img src="../../imagenes/niveles-suma/1.jpg" alt="youtube" class="imagen_nivel_video">
+                        </p>
+                    </a>
+                </div>  
+                <div class="btn_nivel_fondo">
+                    <a href="../juego_suma_resta/juego_suma_n2_1" class="btn_nivel boton_seleccionable btn_nivel_tam" >
+                        <div>
+                           <h2>Nivel 2  - Suma con numeros</h2> 
+                        </div>
+                        <p style="text-align:center;" >
+                            <img src="../../imagenes/niveles-suma/2.jpg" alt="youtube" class="imagen_nivel_video">
+                        </p>
+                    </a>
+                </div>  
+                <div class="btn_nivel_fondo">
+                    <a href="../videos/video_resta" class="btn_nivel boton_seleccionable_video btn_nivel_tam" >
+                        <div>
+                           <h2>Video introducción resta</h2> 
+                        </div>
+                        <p style="text-align:center;" >
+                            <img src="../../imagenes/youtube.png" alt="youtube" class="imagen_nivel_video">
+                        </p>
+                    </a>
+                </div>  
+                <div class="btn_nivel_fondo">
+                    <a href="../juego_suma_resta/juego_suma_n3_1" class="btn_nivel boton_seleccionable btn_nivel_tam" >
+                        <div>
+                           <h2>Nivel 3  - Resta con objetos</h2> 
+                        </div>
+                        <p style="text-align:center;" >
+                            <img src="../../imagenes/niveles-suma/3.jpg" alt="youtube" class="imagen_nivel_video">
+                        </p>
+                    </a>
+                </div> 
+                <div class="btn_nivel_fondo">
+                    <a href="../juego_suma_resta/juego_suma_n4_1" class="btn_nivel boton_seleccionable btn_nivel_tam" >
+                        <div>
+                           <h2>Nivel 4  - Resta con numeros</h2> 
+                        </div>
+                        <p style="text-align:center;" >
+                            <img src="../../imagenes/niveles-suma/4.jpg" alt="youtube" class="imagen_nivel_video">
+                        </p>
+                    </a>
+                </div> 
+                <div class="btn_nivel_fondo">
+                    <a href="../juego_suma_resta/juego_suma_n5_1" class="btn_nivel boton_seleccionable btn_nivel_tam" >
+                        <div>
+                           <h2>Nivel 5  - Ejercicios combinados</h2> 
+                        </div>
+                        <p style="text-align:center;" >
+                            <img src="../../imagenes/niveles-suma/5.jpg" alt="youtube" class="imagen_nivel_video">
+                        </p>
+                    </a>
+                </div> 
+                    
             <!-- <a href="juego_suma5.php" class="btn_nivel boton_seleccionable">
                 <h2>Nivel 5 - Prueba final</h2>
             </a> -->

@@ -14,7 +14,7 @@
     <div class="recuadro_blanco_fondo centrar">
         <p class="instrucciones_cortas">Video introducción suma : Juego suma y resta</p>
 
-         <iframe class="centrar" width="700px" height="500" src="https://www.youtube.com/embed/Fji4COgvK4w?autoplay=1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+         <iframe class="centrar tam_video" src="https://www.youtube.com/embed/Fji4COgvK4w?autoplay=1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
         <p style="text-align:center;">Referencia: Peques Aprenden Jugando. (20 de julio de 2020). Aprender a sumar para niños Cómo aprender a sumar de una forma fácil PequesAprendenJugando [Archivo de video]. Youtube. https://www.youtube.com/watch?v=Fji4COgvK4w&t</p>
         </div>
