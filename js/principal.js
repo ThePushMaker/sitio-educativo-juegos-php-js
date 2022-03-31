@@ -1,5 +1,5 @@
 
-var cont_estrellas = localStorage.getItem("cont_estrellas");
+
 
 // Función que valida si la repsuesta elegida por el usuario es valida y psoteriormente muestra un simbolo y sonido dependiendo del caso
 // Programador: Martín Calderón
@@ -62,8 +62,8 @@ function notificacion_nivel_completado(){
     }).then((result) => {
         /* Read more about isConfirmed, isDenied below */
         if (result.isConfirmed) {
+            llevar_proximo_nvl();
         //   Swal.fire('Saved!', '', 'success')
-        //   llevar_proximo_nvl()
         } else if (result.isDenied) {
         //   Swal.fire('Changes are not saved', '', 'info')
           window.location.href = "../principal/home";
@@ -132,7 +132,7 @@ function notificacion_respuesta_incorrecta(){
     }).then((result) => {
     /* Read more about handling dismissals below */
     if (result.dismiss === Swal.DismissReason.timer) {
-        console.log('I was closed by the timer')
+        // console.log('I was closed by the timer')
     }
     })
 }
@@ -148,11 +148,13 @@ function pasar_nivel_juego_completado_notificacion(){
         type:'success',
         title:'¡Felicidades, terminaste todos los niveles de este juego!',
         confirmButtonColor:'#3085d6',
-        confirmButtonText:'Jugar otro juego',
+        confirmButtonText:'Aceptar',
         allowOutsideClick: false
     }).then((result) => {
         if(result.value){
-            llevar_proximo_nvl()
+            // llevar_proximo_nvl()
+            const sonido = cargarSonido("../../audios/juego_completado.ogg");
+            sonido.play();
         }
     })
 }
@@ -199,6 +201,7 @@ function filename(){
 // Programador: Martín Calderón
 // Fecha: 31/mayo/21
 function actualizar_estrellas(){ //validar_respuestas
+    var cont_estrellas = parseInt(localStorage.getItem("cont_estrellas"),10);
     if(cont_estrellas==3){
         imagen = '<img src="../../imagenes/3_estrellas.png" alt="3" class="img_estrellas_ejercicio centrar" />'
         document.getElementById("lugar_estrellas").innerHTML = imagen;
@@ -211,7 +214,25 @@ function actualizar_estrellas(){ //validar_respuestas
     }else if(cont_estrellas==0){
         imagen = '<img src="../../imagenes/0_estrellas.png" alt="0" class="img_estrellas_ejercicio centrar" />'
         document.getElementById("lugar_estrellas").innerHTML = imagen;
+    }
+}
+
+function resetear_vidas(){
+    localStorage.setItem('cont_estrellas', 3);
+    actualizar_estrellas();
+}
+
+function proceso_respuesta_incorrecta(){
+    const sonido = cargarSonido("../../audios/incorrecto.mp3");
+    sonido.play();
+    var cont_estrellas = parseInt(localStorage.getItem("cont_estrellas"),10);
+    cont_estrellas--;
+    localStorage.setItem('cont_estrellas', cont_estrellas)
+    actualizar_estrellas();
+    if(cont_estrellas==0){
         sin_vidas_notificacion()
+    }else{
+        notificacion_respuesta_incorrecta();
     }
 }
 

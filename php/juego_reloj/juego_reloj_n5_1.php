@@ -11,7 +11,7 @@
     </div>
 
 
-    <p class="instrucciones_cortas">Nivel 1 : Horas en punto</p>
+    <p class="instrucciones_cortas">Nivel 5 : Ejercicios combinados</p>
     <div class="recuadro_blanco_fondo centrar">
         <!-- <h4> Puntuación actual:</h4> -->
         <div class="grupo_posibles_respuestas centrar" id='lugar_estrellas'>
@@ -21,7 +21,7 @@
         <p class="instrucciones_cortas"> ¿Qué hora es?</p>
         <div class="grupo_posibles_respuestas img_ejercicio_resolver centrar">
             <div>
-                <img src="../../imagenes/cerrada/1.png" class="img_ejercicio_resolver centrar" id="primero" style="margin-top:20px; width:100%;">
+                <img src="../../imagenes/numero_hora/120N.png" class="img_ejercicio_resolver centrar" id="primero" style="margin-top:20px; width:100%;">
             </div>
             <div>
                 <img src="" class="img_ejercicio_resolver centrar" id="segundo" style="margin-top:20px; width:100%;">
@@ -31,15 +31,15 @@
         <div class="grupo_posibles_respuestas_elegir centrar">
 
             <div>
-                <button class="boton_seleccionable boton_respuesta" value="r_correcta" onclick="mostrar_resultado_respuesta('r1');" id="r1"> <img src="../../imagenes/respuestas_hora/100.png" class="boton_respuesta_img centrar" id="img_1"></button>
+                <button class="boton_seleccionable boton_respuesta" value="r_correcta" onclick="mostrar_resultado_respuesta('r1');" id="r1"> <img src="../../imagenes/numero_hora/120H.png" class="boton_respuesta_img centrar" id="img_1"></button>
             </div>
 
             <div>
-                <button class="boton_seleccionable boton_respuesta" value="r_incorrecta" onclick="mostrar_resultado_respuesta('r2');" id="r2"><img src="../../imagenes/respuestas_hora/200.png" class="boton_respuesta_img centrar" id="img_2"></button>
+                <button class="boton_seleccionable boton_respuesta" value="r_incorrecta" onclick="mostrar_resultado_respuesta('r2');" id="r2"><img src="../../imagenes/medias_y_alternas/330.png" class="boton_respuesta_img centrar" id="img_2"></button>
             </div>
 
             <div>
-                <button class="boton_seleccionable boton_respuesta" value="r_incorrecta" onclick="mostrar_resultado_respuesta('r3');" id="r3"><img src="../../imagenes/respuestas_hora/600.png" class="boton_respuesta_img centrar" id="img_3"></button>
+                <button class="boton_seleccionable boton_respuesta" value="r_incorrecta" onclick="mostrar_resultado_respuesta('r3');" id="r3"><img src="../../imagenes/medias_y_alternas/830.png" class="boton_respuesta_img centrar" id="img_3"></button>
             </div>
 
         </div>
@@ -53,10 +53,10 @@
 <script type="text/javascript">
     resetear_vidas();
 
-    localStorage.setItem("archivo_niveles_ruta", "../juego_reloj/niveles1.json");
+    localStorage.setItem("archivo_niveles_ruta", "../juego_reloj/niveles5.json");
 
     function llevar_proximo_nvl() { //
-        window.location.href = "../juego_reloj/juego_reloj_n2_1";
+        window.location.href = "../principal/Juego_completado";
     }
 </script>
 

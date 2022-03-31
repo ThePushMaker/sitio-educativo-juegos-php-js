@@ -16,13 +16,10 @@
     <script src="../../plugins/sweetalert2/sweetalert2.all.min.js"></script>    
     <script src="../../plugins/jquery-3.3.1.min.js"></script>    
 
-    <script src="../../js/principal.js"></script>
-
-
     <link href="../../imagenes/logo_chico.png" rel="icon" type="image/png"/>
 
 </head>
-<body background="../../imagenes/fondo.jpg" class="imagen_fondo" onload="actualizar_estrellas();">
+<body background="../../imagenes/fondo.jpg" class="imagen_fondo" onload="">
     <header >
         <a href="../principal/home"><img class="logo_grande centrar" src="../../imagenes/logo_grande.png"></a>
         

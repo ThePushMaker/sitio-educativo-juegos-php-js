@@ -1,0 +1,71 @@
+[
+  [
+    {
+      "primeraImg": "../../imagenes/princesa/Princesa 15.png",
+      "segundaImg": "",
+      "opcionUno": "../../imagenes/numero_faltante/5.png",
+      "opcionDos": "../../imagenes/numero_faltante/15.png",
+      "opcionTres": "../../imagenes/numero_faltante/20.png",
+      "respuestas": [
+        "r_incorrecta",
+        "r_correcta",
+        "r_incorrecta"
+      ]
+    },
+    {
+      "primeraImg": "../../imagenes/numero_faltante/-1.png",
+      "segundaImg": "",
+      "opcionUno": "../../imagenes/numero_faltante/1.png",
+      "opcionDos": "../../imagenes/numero_faltante/11.png",
+      "opcionTres": "../../imagenes/numero_faltante/10.png",
+      "respuestas": [
+        "r_correcta",
+        "r_incorrecta",
+        "r_incorrecta"
+      ]
+    },
+    {
+      "primeraImg": "../../imagenes/carro/Carro 16.png",
+      "segundaImg": "",
+      "opcionUno": "../../imagenes/numero_faltante/6.png",
+      "opcionDos": "../../imagenes/numero_faltante/11.png",
+      "opcionTres": "../../imagenes/numero_faltante/16.png",
+      "respuestas": [
+        "r_incorrecta",
+        "r_incorrecta",
+        "r_correcta"
+      ]
+    },
+    {
+      "primeraImg": "../../imagenes/numero_faltante/-10.png",
+      "segundaImg": "",
+      "opcionUno": "../../imagenes/numero_faltante/10.png",
+      "opcionDos": "../../imagenes/numero_faltante/11.png",
+      "opcionTres": "../../imagenes/numero_faltante/20.png",
+      "respuestas": [
+        "r_correcta",
+        "r_incorrecta",
+        "r_incorrecta"
+      ]
+    },
+    {
+      "primeraImg": "../../imagenes/caballero/Caballero 6.png",
+      "segundaImg": "",
+      "opcionUno": "../../imagenes/numero_faltante/13.png",
+      "opcionDos": "../../imagenes/numero_faltante/6.png",
+      "opcionTres": "../../imagenes/numero_faltante/9.png",
+      "respuestas": [
+        "r_incorrecta",
+        "r_correcta",
+        "r_incorrecta"
+      ]
+    }
+  ],
+  [
+    {
+    },
+    {
+    }
+  ]
+]
+

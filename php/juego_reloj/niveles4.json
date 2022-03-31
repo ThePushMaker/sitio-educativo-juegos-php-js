@@ -1,0 +1,45 @@
+[
+  [
+    {
+      "primeraImg": "../../imagenes/numero_hora/120N.png",
+      "segundaImg": "",
+      "opcionUno": "../../imagenes/numero_hora/120H.png",
+      "opcionDos": "../../imagenes/medias_y_alternas/330.png",
+      "opcionTres": "../../imagenes/medias_y_alternas/830.png",
+      "respuestas": ["r_correcta", "r_incorrecta", "r_incorrecta"]
+    },
+    {
+      "primeraImg": "../../imagenes/numero_hora/410N.png",
+      "segundaImg": "",
+      "opcionUno": "../../imagenes/numero_hora/410H.png",
+      "opcionDos": "../../imagenes/medias_y_alternas/105.png",
+      "opcionTres": "../../imagenes/medias_y_alternas/1255.png",
+      "respuestas": ["r_correcta", "r_incorrecta", "r_incorrecta"]
+    },
+    {
+      "primeraImg": "../../imagenes/numero_hora/535N.png",
+      "segundaImg": "",
+      "opcionUno": "../../imagenes/cerrada/1.png",
+      "opcionDos": "../../imagenes/cerrada/4.png",
+      "opcionTres": "../../imagenes/numero_hora/535H.png",
+      "respuestas": ["r_incorrecta", "r_incorrecta", "r_correcta"]
+    },
+    {
+      "primeraImg": "../../imagenes/numero_hora/940N.png",
+      "segundaImg": "",
+      "opcionUno": "../../imagenes/numero_hora/940H.png",
+      "opcionDos": "../../imagenes/cerrada/9.png",
+      "opcionTres": "../../imagenes/cerrada/10.png",
+      "respuestas": ["r_correcta", "r_incorrecta", "r_incorrecta"]
+    },
+    {
+      "primeraImg": "../../imagenes/numero_hora/1125N.png",
+      "segundaImg": "",
+      "opcionUno": "../../imagenes/cerrada/11.png",
+      "opcionDos": "../../imagenes/numero_hora/1125H.png",
+      "opcionTres": "../../imagenes/medias_y_alternas/1030.png",
+      "respuestas": ["r_incorrecta", "r_correcta", "r_incorrecta"]
+    }
+  ],
+  [{}, {}]
+]

@@ -39,22 +39,7 @@
 
             //Validar respuesta incorrecta y realizar acciones correspondientes
             if (respuesta === 'r_incorrecta') {
-                const sonido = cargarSonido("../../audios/incorrecto.mp3");
-                sonido.play();
-                cont_estrellas--;
-                actualizar_estrellas();
-                if(cont_estrellas==0){
-                    imagen = '<img src="../../imagenes/0_estrellas.png" alt="0" class="img_estrellas_ejercicio centrar" />'
-                    document.getElementById("lugar_estrellas").innerHTML = imagen;
-                    sin_vidas_notificacion()
-                }else{
-                    /*imagen='';*/
-                    // imagen = '<img src="../../imagenes/incorrecto.png" alt="Incorrecto" class="centrar" style="width: 90px; margin-right: 100px;  margin-left: 100px;" />'
-                    /*document.getElementById(xx.id).parentNode.innerHTML = imagen;*/
-
-                    notificacion_respuesta_incorrecta();
-                }
-                localStorage.setItem('cont_estrellas', cont_estrellas)//7
+                proceso_respuesta_incorrecta();
                 return;
             }
 

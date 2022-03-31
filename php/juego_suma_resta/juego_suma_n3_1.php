@@ -10,7 +10,7 @@
         </a>
     </div>
 
-    <p class="instrucciones_cortas desc">Nivel 1 : Suma con objetos</p>
+    <p class="instrucciones_cortas desc">Nivel 3 : Resta con objetos</p>
     <div class="recuadro_blanco_fondo centrar">
         <!-- <h4> Puntuación actual:</h4> -->
         <div class="grupo_posibles_respuestas centrar" id='lugar_estrellas'>
@@ -19,13 +19,13 @@
         <p class="instrucciones_cortas">¿Cuánto es?</p>
         <div class="grupo_posibles_respuestas img_ejercicio_resolver centrar">
             <div>
-                <img src="../../imagenes/caballero/Caballero 2.png" class="centrar" id="primero" style="margin-top:20px; width:100%;">
+                <img src="../../imagenes/caballero/Caballero 3.png" class="centrar" id="primero" style="margin-top:20px; width:100%;">
             </div>
             <div>
-                <img src="../../imagenes/Suma.png" class="centrar" style="margin-top:20px; width:100%;">
+                <img src="../../imagenes/Resta.png" class="centrar" style="margin-top:20px; width:100%;">
             </div>
             <div>
-                <img src="../../imagenes/caballero/Caballero 3.png" class="centrar" id="segundo" style="margin-top:20px; width:100%;">
+                <img src="../../imagenes/caballero/Caballero 2.png" class="centrar" id="segundo" style="margin-top:20px; width:100%;">
             </div>
         </div>
         <div class="grupo_posibles_respuestas_elegir centrar">
@@ -36,7 +36,7 @@
                 <button class="boton_seleccionable boton_respuesta" value="r_incorrecta" onclick="mostrar_resultado_respuesta('r2');" id="r2"><img src="../../imagenes/Numeros/4.png" class="img_boton_respuesta_corta centrar" id="img_2"></button>
             </div>
             <div id='lugar_r3'>
-                <button class="boton_seleccionable boton_respuesta" value="r_correcta" onclick="mostrar_resultado_respuesta('r3');" id="r3"><img src="../../imagenes/Numeros/5.png" class="img_boton_respuesta_corta centrar" id="img_3"></button>
+                <button class="boton_seleccionable boton_respuesta" value="r_correcta" onclick="mostrar_resultado_respuesta('r3');" id="r3"><img src="../../imagenes/Numeros/1.png" class="img_boton_respuesta_corta centrar" id="img_3"></button>
             </div>
         </div>
     </div>
@@ -48,10 +48,10 @@
 <script type="text/javascript">
     resetear_vidas();
 
-    localStorage.setItem("archivo_niveles_ruta", "../juego_suma_resta/niveles1.json");
+    localStorage.setItem("archivo_niveles_ruta", "../juego_suma_resta/niveles3.json");
 
     function llevar_proximo_nvl() { //
-        window.location.href = "../juego_suma_resta/juego_suma_n2_1";
+        window.location.href = "../juego_suma_resta/juego_suma_n4_1";
     }
 </script>
 

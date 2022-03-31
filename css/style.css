@@ -44,15 +44,16 @@ h4{
     font-size: 1.2rem;
     padding-left: 8%;
 }
-a{
+a, button {
     color:#e61867;
     text-decoration:none;
     background-color:transparent;
     text-shadow: .5px .5px .5px rgb(15, 15, 15);
     -webkit-text-stroke-color: rgb(8, 8, 8);
-  -webkit-text-stroke-width: .6px;
-    
+    -webkit-text-stroke-width: .6px;    
   }
+
+
 a:hover{ /*Hipervinculos con cursor encima*/
     color:#0056b3;
 }
@@ -344,10 +345,10 @@ a:hover{ /*Hipervinculos con cursor encima*/
     -moz-transition: 0.2s ease; /* Firefox */
     -webkit-transition: 0.2s ease; /* Chrome - Safari */
     -o-transition: 0.2s ease; /* Opera */
-    -webkit-box-shadow: 0px 11px 16px -4px rgba(0,0,0,0.79); 
-    box-shadow: 0px 11px 16px -4px rgba(0,0,0,0.79);
-    background-color: #c3e3f5;
-    background: -webkit-linear-gradient(right, #7dabdfde, #c3e3f5, #c3e3f5, #7dabdfde);
+    /* -webkit-box-shadow: 0px 11px 16px -4px rgba(0,0,0,0.79); 
+    box-shadow: 0px 11px 16px -4px rgba(0,0,0,0.79); */
+    background-color: #538df8;
+    background: -webkit-linear-gradient(right, #538df8, #c3e3f5, #c3e3f5, #538df8);
     background: -o-linear-gradient(right, #7dabdf, #c3e3f5, #c3e3f5, #7dabdf);
     background: -moz-linear-gradient(right, #7dabdf, #c3e3f5, #c3e3f5, #7dabdf);
     background: linear-gradient(right, #7dabdf, #c3e3f5, #c3e3f5, #7dabdf);
@@ -374,7 +375,7 @@ a:hover{ /*Hipervinculos con cursor encima*/
     -webkit-box-shadow: 0px 11px 16px -4px rgba(0,0,0,0.79); 
     box-shadow: 0px 11px 16px -4px rgba(0,0,0,0.79);
     background-color: #c3e3f5;
-    background: -webkit-linear-gradient(right, #a075f0, #dbcdf8, #dbcdf8, #a075f0);
+    background: -webkit-linear-gradient(right, #42a8a3, #a3dfdc, #a3dfdc, #42a8a3);
     background: -o-linear-gradient(right, #df7d7d, #f5f2c3, #f5f2c3, #df7d7d);
     background: -moz-linear-gradient(right, #7dabdf, #c3e3f5, #c3e3f5, #7dabdf);
     background: linear-gradient(right, #7dabdf, #c3e3f5, #c3e3f5, #7dabdf);
