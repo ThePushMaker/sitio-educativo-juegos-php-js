@@ -25,7 +25,7 @@
                 </a>
             </div>
             <div class="btn_nivel_fondo">
-                <a href="../juego_reloj/juego_reloj_n1_1"" class=" btn_nivel boton_seleccionable btn_nivel_tam">
+                <a href="../juego_reloj/juego_reloj_n1_1" class=" btn_nivel boton_seleccionable btn_nivel_tam">
                     <div>
                         <h2>Nivel 1 - Horas en punto</h2>
                     </div>
@@ -36,7 +36,7 @@
                 </a>
             </div>
             <div class="btn_nivel_fondo">
-                <a href="../juego_reloj/juego_reloj_n2_1"" class=" btn_nivel boton_seleccionable btn_nivel_tam" id="mienlace">
+                <a href="../juego_reloj/juego_reloj_n2_1" class=" btn_nivel boton_seleccionable btn_nivel_tam" id="mienlace">
                     <div>
                         <h2>Nivel 2 - Horas y media</h2>
                     </div>
@@ -46,7 +46,7 @@
                 </a>
             </div>
             <div class="btn_nivel_fondo">
-                <a href="../juego_reloj/juego_reloj_n3_1"" class=" btn_nivel boton_seleccionable btn_nivel_tam">
+                <a href="../juego_reloj/juego_reloj_n3_1" class=" btn_nivel boton_seleccionable btn_nivel_tam">
                     <div>
                         <h2>Nivel 3 - Horas y minutos</h2>
                     </div>
@@ -57,7 +57,7 @@
                 </a>
             </div>
             <div class="btn_nivel_fondo">
-                <a href="../juego_reloj/juego_reloj_n4_1"" class=" btn_nivel boton_seleccionable btn_nivel_tam">
+                <a href="../juego_reloj/juego_reloj_n4_1" class=" btn_nivel boton_seleccionable btn_nivel_tam">
                     <div>
                         <h2>Nivel 4 - Identificar manecillas</h2>
                     </div>
@@ -68,7 +68,7 @@
                 </a>
             </div>
             <div class="btn_nivel_fondo">
-                <a href="../juego_reloj/juego_reloj_n5_1"" class=" btn_nivel boton_seleccionable btn_nivel_tam">
+                <a href="../juego_reloj/juego_reloj_n5_1" class=" btn_nivel boton_seleccionable btn_nivel_tam">
                     <div>
                         <h2>Nivel 5 - Ejercicios combinados</h2>
                     </div>
@@ -85,14 +85,40 @@
 
 </main>
 
+<script src="../../js/principal.js"></script>
 <script>
     window.onload = function() {
-        // document.getElementById("mienlace").href = "";
-        // mienlace.innerHTML = "name"
+        if (localStorage.getItem("LS_estado_niveles") == null) {
+            resetear_bloqueo_niveles();
+        }
+        actualizar_estado_niveles();
+
+    }
+
+
+    function actualizar_estado_niveles() {
+        var stored_estado_niveles = JSON.parse(localStorage.getItem("LS_estado_niveles"));
+
+        var nivel = document.querySelectorAll(".boton_seleccionable")
+        if (stored_estado_niveles[1]['juego_reloj_n2'] == "bloqueado") { //nivel 2
+            nivel[1].removeAttribute('href');
+            nivel[1].classList.add('boton_seleccionable_deshabilitado');
+        }
+        if (stored_estado_niveles[1]['juego_reloj_n3'] == "bloqueado") {
+            nivel[2].removeAttribute('href');
+            nivel[2].classList.add('boton_seleccionable_deshabilitado');
+        }
+        if (stored_estado_niveles[1]['juego_reloj_n4'] == "bloqueado") {
+            nivel[3].removeAttribute('href');
+            nivel[3].classList.add('boton_seleccionable_deshabilitado');
+        }
+        if (stored_estado_niveles[1]['juego_reloj_n5'] == "bloqueado") {
+            nivel[4].removeAttribute('href');
+            nivel[4].classList.add('boton_seleccionable_deshabilitado');
+        }
+
     }
 </script>
-
-
 
 </body>
 

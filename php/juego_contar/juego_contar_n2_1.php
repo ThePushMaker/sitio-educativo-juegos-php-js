@@ -50,6 +50,9 @@
         function llevar_proximo_nvl(){ //
             window.location.href = "../juego_contar/juego_contar_n3_1";
         }
+        
+        desbloquear_nivel(0,"juego_contar_n2");
+ 
     </script>
       
 </body>

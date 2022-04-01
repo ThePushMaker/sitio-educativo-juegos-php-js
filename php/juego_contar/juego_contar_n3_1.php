@@ -45,9 +45,13 @@
     <script type="text/javascript">
         resetear_vidas();
 
+        localStorage.setItem("archivo_niveles_ruta", "../juego_contar/niveles3.json");
+
         function llevar_proximo_nvl(){ //
             window.location.href = "../principal/Juego_completado";
         }
+
+        desbloquear_nivel(0,"juego_contar_n3");
 
     </script>
      

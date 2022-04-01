@@ -1,43 +1,36 @@
 
 
 
-// Función que valida si la repsuesta elegida por el usuario es valida y psoteriormente muestra un simbolo y sonido dependiendo del caso
-// Programador: Martín Calderón
-// Fecha: 29/mayo/21
-function mostrar_resultado_respuesta(id){ //validar_respuestas
-    //1
-    var xx = document.getElementById(id)
-
-    /*xx.style.display = 'none'; //oculta el elemento*/
-
-    if(xx.value=='r_correcta'){ //procede a mostrar una imagen dependiendo del caso //2
-        //3
-        /*imagen='';*/
-        // imagen = '<img src="../../imagenes/correcto.png" alt="Correcto" class="centrar" style="width: 90px; margin-right: 100px;  margin-left: 100px;"/>'
-        /*document.getElementById(xx.id).parentNode.innerHTML = imagen;*/
-        // pasar_nivel_notificacion()
-        var nombre_archivo = filename()
-        //reloj
-
-
-        if(nombre_archivo=="juego_reloj_n1_5.php" || nombre_archivo=="juego_reloj_n2_5.php" || nombre_archivo=="juego_reloj_n3_5.php" || nombre_archivo=="juego_reloj_n4_5.php" || nombre_archivo=="juego_reloj_n5_5.php" || nombre_archivo=="juego_contar_n1_5.php" || nombre_archivo=="juego_contar_n2_5.php" || nombre_archivo=="juego_contar_n3_5.php" || nombre_archivo=="juego_contar_n4_5.php" || nombre_archivo=="juego_contar_n5_5.php" || nombre_archivo=="juego_suma_n2_5.php" || nombre_archivo=="juego_suma_n2_5|" || nombre_archivo=="juego_suma_n3_5.php" || nombre_archivo=="juego_suma_n4_5.php" || nombre_archivo=="juego_suma_n5_5.php"){//4
-            pasar_nivel_juego_completado_notificacion()//5
+function resetear_bloqueo_niveles() {
+    var estado_niveles = [{
+            'juego_contar_n1': 'desbloqueado',
+            'juego_contar_n2': 'bloqueado',
+            'juego_contar_n3': 'bloqueado'
+        },
+        {
+            'juego_reloj_n1': 'desbloqueado',
+            'juego_reloj_n2': 'bloqueado',
+            'juego_reloj_n3': 'bloqueado',
+            'juego_reloj_n4': 'bloqueado',
+            'juego_reloj_n5': 'bloqueado'
+        },
+        {
+            'juego_suma_resta_n1': 'desbloqueado',
+            'juego_suma_resta_n2': 'bloqueado',
+            'juego_suma_resta_n3': 'bloqueado',
+            'juego_suma_resta_n4': 'bloqueado',
         }
+    ];
+    localStorage.setItem("LS_estado_niveles", JSON.stringify(estado_niveles));
 
-    }
-    // else{//6
-    //     const sonido = cargarSonido("../../audios/incorrecto.mp3");
-    //     sonido.play();
-    //     /*imagen='';*/
-    //     // imagen = '<img src="../../imagenes/incorrecto.png" alt="Incorrecto" class="centrar" style="width: 90px; margin-right: 100px;  margin-left: 100px;" />'
-    //     /*document.getElementById(xx.id).parentNode.innerHTML = imagen;*/
+    // console.log(estado_niveles);
 
-    //     cont_estrellas--;
-    //     // alert(cont_estrellas)
-    //     actualizar_estrellas()
+}
 
-    // }
-    // localStorage.setItem('cont_estrellas', cont_estrellas)//7
+function desbloquear_nivel(juego, nivel){
+    var stored_estado_niveles = JSON.parse(localStorage.getItem("LS_estado_niveles"));
+    stored_estado_niveles[juego][nivel] = "desbloqueado"
+    localStorage.setItem("LS_estado_niveles", JSON.stringify(stored_estado_niveles));
 }
 
 function notificacion_nivel_completado(){

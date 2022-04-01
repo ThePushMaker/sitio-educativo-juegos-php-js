@@ -58,6 +58,7 @@
     function llevar_proximo_nvl() { //
         window.location.href = "../juego_reloj/juego_reloj_n5_1";
     }
+    desbloquear_nivel(1,"juego_reloj_n4");
 </script>
 
 

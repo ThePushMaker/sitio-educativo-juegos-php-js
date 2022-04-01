@@ -53,6 +53,7 @@
     function llevar_proximo_nvl() { //
         window.location.href = "../principal/Juego_completado";
     }
+    desbloquear_nivel(2,"juego_suma_resta_n4");
 </script>
 
 </body>

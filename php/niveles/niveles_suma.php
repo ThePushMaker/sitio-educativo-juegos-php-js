@@ -77,12 +77,40 @@
                 </a>
             </div>
 
-            <!-- <a href="juego_suma5.php" class="btn_nivel boton_seleccionable">
-                <h2>Nivel 5 - Prueba final</h2>
-            </a> -->
         </div>
 
 </main>
+
+
+<script src="../../js/principal.js"></script>
+<script>
+    window.onload = function() {
+        if (localStorage.getItem("LS_estado_niveles") == null) {
+            resetear_bloqueo_niveles();
+        }
+        actualizar_estado_niveles();
+
+    }
+
+    function actualizar_estado_niveles() {
+        var stored_estado_niveles = JSON.parse(localStorage.getItem("LS_estado_niveles"));
+
+        var nivel = document.querySelectorAll(".boton_seleccionable")
+        if (stored_estado_niveles[2]['juego_suma_resta_n2'] == "bloqueado") { //nivel 2
+            nivel[1].removeAttribute('href');
+            nivel[1].classList.add('boton_seleccionable_deshabilitado');
+        }
+        if (stored_estado_niveles[2]['juego_suma_resta_n3'] == "bloqueado") {
+            nivel[2].removeAttribute('href');
+            nivel[2].classList.add('boton_seleccionable_deshabilitado');
+        }
+        if (stored_estado_niveles[2]['juego_suma_resta_n4'] == "bloqueado") {
+            nivel[3].removeAttribute('href');
+            nivel[3].classList.add('boton_seleccionable_deshabilitado');
+        }
+
+    }
+</script>
 
 
 </body>

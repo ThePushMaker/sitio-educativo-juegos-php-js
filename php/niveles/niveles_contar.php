@@ -26,7 +26,7 @@
             </div>
 
             <div class="btn_nivel_fondo">
-                <a href="../juego_contar/juego_contar_n1_1" class="btn_nivel boton_seleccionable btn_nivel_tam">
+                <a href="../juego_contar/juego_contar_n1_1" id="juego_contar_n1" class="btn_nivel boton_seleccionable btn_nivel_tam" >
                     <div>
                         <h2>Nivel 1 - Contar con objetos</h2>
                     </div>
@@ -37,7 +37,7 @@
             </div>
 
             <div class="btn_nivel_fondo">
-                <a href="../juego_contar/juego_contar_n2_1" class="btn_nivel boton_seleccionable btn_nivel_tam">
+                <a href="../juego_contar/juego_contar_n2_1" id="juego_contar_n2" class="btn_nivel boton_seleccionable btn_nivel_tam" >
                     <div>
                         <h2>Nivel 2 - Completar series</h2>
                     </div>
@@ -48,7 +48,7 @@
             </div>
 
             <div class="btn_nivel_fondo">
-                <a href="../juego_contar/juego_contar_n3_1" class="btn_nivel boton_seleccionable btn_nivel_tam">
+                <a href="../juego_contar/juego_contar_n3_1" id="juego_contar_n3" class="btn_nivel boton_seleccionable btn_nivel_tam">
                     <div>
                         <h2>Nivel 3 - Ejercicios combinados</h2>
                     </div>
@@ -60,16 +60,36 @@
 
         </div>
 
-
-        <!-- <a href="juego_contar_n1_1.php" class="btn_nivel boton_seleccionable">
-                <h2>Nivel 4</h2>
-            </a>
-            <a href="juego_contar_n1_1.php" class="btn_nivel boton_seleccionable">
-                <h2>Nivel 5</h2>
-            </a> -->
     </div>
 
 </main>
+
+<script src="../../js/principal.js"></script>
+<script>
+    window.onload = function() {
+        if (localStorage.getItem("LS_estado_niveles") == null) {
+            resetear_bloqueo_niveles();
+        }
+        actualizar_estado_niveles();
+
+    }
+
+
+    function actualizar_estado_niveles() {
+        var stored_estado_niveles = JSON.parse(localStorage.getItem("LS_estado_niveles"));
+
+        var nivel = document.querySelectorAll(".boton_seleccionable")
+        if (stored_estado_niveles[0]['juego_contar_n2'] == "bloqueado") {//nivel 2
+            nivel[1].removeAttribute('href');
+            nivel[1].classList.add('boton_seleccionable_deshabilitado');
+        }
+        if (stored_estado_niveles[0]['juego_contar_n3'] == "bloqueado") {
+            nivel[2].removeAttribute('href');
+            nivel[2].classList.add('boton_seleccionable_deshabilitado');
+        }
+
+    }
+</script>
 
 
 </body>
