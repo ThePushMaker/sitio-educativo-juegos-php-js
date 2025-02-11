@@ -11,7 +11,6 @@
 
 header {
     background-color: var(--primario);
-
     display: flex;
     justify-content: space-around;
     background: -webkit-linear-gradient(right, #2c53bd, #60B6E9, #35ca9d, #2c53bd);
@@ -54,12 +53,9 @@ h4 {
 }
 
 a {
-    color: #e61867;
+    color: #ffcc27;
     text-decoration: none;
     background-color: transparent;
-    text-shadow: .5px .5px .5px rgb(15, 15, 15);
-    -webkit-text-stroke-color: rgb(8, 8, 8);
-    -webkit-text-stroke-width: .6px;
     cursor: pointer;
 }
 
@@ -95,22 +91,18 @@ a:hover {
 }
 
 .recuadro_fondo_juego_home {
-    margin: 3%;
-    padding: 8%;
-    margin-top: 4%;
-    margin-bottom: 4%;
-    border-radius: 5%;
-    border-width: 3px;
+    margin: 1rem;
+    padding: 3rem;
+    border-radius: 2.5rem;
+    border-width: 0.5rem;
     border-style: solid;
-    border-color: rgb(8, 8, 8);
+    border-color: rgb(255, 255, 255);
     width: 250px;
-    height: 350px;
+    height: auto;
 }
 
 @media (max-width: 540px) {
     .recuadro_fondo_juego_home {
-        margin: 3%;
-        padding: 8%;
         margin-top: 4%;
         margin-bottom: 4%;
         padding-top: 4%;
@@ -376,15 +368,18 @@ a:hover {
 }
 
 
-.subtitulo_juego_home {
-    font-size: 1.3rem;
-    margin-top: 5%;
+.recuadro_fondo_juego_home p {
+    font-size: 2rem;
+    padding: 0.7rem;
     text-align: center;
     font-weight: bold;
     color: rgb(253, 198, 46);
+    border: 1px solid rgb(78, 51, 255);
+    border-radius: 1rem;
+    background-color: rgba(255, 255, 255, 0.7);
     text-shadow: .7px .7px .7px rgb(15, 15, 15);
-    -webkit-text-stroke-color: rgb(8, 8, 8);
-    -webkit-text-stroke-width: .5px;
+    -webkit-text-stroke-color: rgb(142, 91, 36);
+    -webkit-text-stroke-width: 1px;
 }
 
 .grupo_iconos_descripcion_juego_home {
@@ -409,12 +404,8 @@ a:hover {
     /* -webkit-box-shadow: 0px 11px 16px -4px rgba(0,0,0,0.79); 
     box-shadow: 0px 11px 16px -4px rgba(0,0,0,0.79); */
     background-color: #538df8;
-    background: -webkit-linear-gradient(right, #3498db, #c3e3f5, #c3e3f5, #3498db);
-    background: -o-linear-gradient(right, #7dabdf, #c3e3f5, #c3e3f5, #7dabdf);
-    background: -moz-linear-gradient(right, #7dabdf, #c3e3f5, #c3e3f5, #7dabdf);
-    background: linear-gradient(right, #7dabdf, #c3e3f5, #c3e3f5, #7dabdf);
+    background: -webkit-linear-gradient(right, #3b58c2, #7994f5, #7994f5, #3b58c2);
     outline: 1px none red;
-    
 }
 
 .boton_seleccionable:hover {
@@ -485,7 +476,6 @@ a:hover {
     text-align: center;
     padding: 5px 0;
     border-radius: 6px;
-   
     /* Position the tooltip text - see examples below! */
     position: absolute;
     z-index: 1;
@@ -506,12 +496,10 @@ a:hover {
 
 
 .imagen_modo_juego {
-
+    width: 100%;
     height: 250px;
-    width: 250px;
     object-fit: cover;
-
-
+    border-radius: 1rem;
 }
 
 .imagen_nivel {
