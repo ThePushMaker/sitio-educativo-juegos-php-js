@@ -20,7 +20,7 @@
 
           <a href="../niveles/niveles_reloj" class="">
             <div class="recuadro_fondo_juego_home boton_seleccionable">
-              <p> Aprende a leer el reloj</p>
+              <h2> Aprende a leer el reloj</h2>
               <img src="../../imagenes/niñoreloj.jpg" class="imagen_modo_juego" alt="juego-reloj" >
             </div>
           
@@ -28,14 +28,14 @@
 
          <a href="../niveles/niveles_suma" class="">
           <div class="recuadro_fondo_juego_home boton_seleccionable">
-            <p> Aprende a sumar y restar</p> 
+            <h2> Aprende a sumar y restar</h2> 
                 <img src="../../imagenes/suma.jpg" class="imagen_modo_juego" alt="juego-suma-y-resta" >
             </div>
           </a>
 
           <a href="../niveles/niveles_contar" class="">
             <div class="recuadro_fondo_juego_home boton_seleccionable">
-              <p>Aprende a contar</p>
+              <h2>Aprende a contar</h2>
                 <img src="../../imagenes/contar.jpg" class="imagen_modo_juego" alt="juego-contar" >
             </div>
             

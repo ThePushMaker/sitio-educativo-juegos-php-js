@@ -6,6 +6,9 @@
     "minimap.errorHighlight": "#00000000",
     "terminal.background": "#00000000",
     "minimap.background": "#00000000",
-    "scrollbar.shadow": "#00000000"
+    "scrollbar.shadow": "#00000000",
+    "activityBar.background": "#033243",
+    "titleBar.activeBackground": "#05465D",
+    "titleBar.activeForeground": "#F3FBFE"
   }
 }
