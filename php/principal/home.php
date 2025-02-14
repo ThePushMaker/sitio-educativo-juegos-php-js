@@ -14,31 +14,29 @@
     </div> -->
 
 
-      <p class="instrucciones_cortas"> ¡Elige un juego!</p>
+      <span class="instrucciones_cortas centrar"> ¡Elige un juego!</span>
 
-        <div class="grupo_iconos_juegos_home centrar">
+        <div class="grupo_iconos_juegos_home">
 
           <a href="../niveles/niveles_reloj" class="">
             <div class="recuadro_fondo_juego_home boton_seleccionable">
               <h2> Aprende a leer el reloj</h2>
               <img src="../../imagenes/niñoreloj.jpg" class="imagen_modo_juego" alt="juego-reloj" >
             </div>
-          
-         </a>
+          </a>
 
-         <a href="../niveles/niveles_suma" class="">
-          <div class="recuadro_fondo_juego_home boton_seleccionable">
-            <h2> Aprende a sumar y restar</h2> 
-                <img src="../../imagenes/suma.jpg" class="imagen_modo_juego" alt="juego-suma-y-resta" >
+          <a href="../niveles/niveles_suma" class="">
+            <div class="recuadro_fondo_juego_home boton_seleccionable">
+              <h2> Aprende a sumar y restar</h2> 
+              <img src="../../imagenes/suma.jpg" class="imagen_modo_juego" alt="juego-suma-y-resta" >
             </div>
           </a>
 
           <a href="../niveles/niveles_contar" class="">
             <div class="recuadro_fondo_juego_home boton_seleccionable">
               <h2>Aprende a contar</h2>
-                <img src="../../imagenes/contar.jpg" class="imagen_modo_juego" alt="juego-contar" >
+              <img src="../../imagenes/contar.jpg" class="imagen_modo_juego" alt="juego-contar" >
             </div>
-            
           </a>
 
         </div>

@@ -156,10 +156,9 @@ a:hover {
 .grupo_iconos_juegos_home {
     display: flex;
     justify-content: space-evenly;
-    margin-left: 15%;
-    margin-right: 15%;
     align-items: center;
-    margin-bottom: 10%;
+    width: 80vw;
+    margin: 0 auto;
 }
 
 @media (max-width: 768px) {
