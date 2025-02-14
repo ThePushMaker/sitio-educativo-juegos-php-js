@@ -7,6 +7,9 @@
     --seleccion: #bbe789;
     --gris: #757575;
     --amarillo_claro: #fff87f;
+    --amarillo_brillante: rgb(253, 198, 46);
+    --azul_brillante: rgb(64, 212, 242);
+    --naranja_oscuro: rgb(142, 91, 36);
 }
 
 header {
@@ -355,15 +358,15 @@ a:hover {
 }
 
 .instrucciones_cortas {
-    font-size: 2.5rem;
+    font-size: 3rem;
     margin-top: 1%;
     margin-bottom: 1%;
     text-align: center;
-    color: rgb(253, 198, 46);
-    font-weight: bold;
-    text-shadow: 4px 4px 4px rgb(15, 15, 15);
+    /* color: ; */
+    color: var(--amarillo_brillante);
+    font-weight: bolder;
     -webkit-text-stroke-color: rgb(8, 8, 8);
-    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-width: 1px;
 
 }
 
@@ -375,12 +378,12 @@ a:hover {
     padding: 0.7rem;
     text-align: center;
     font-weight: bold;
-    color: rgb(253, 198, 46);
+    color: var(--amarillo_claro);
     border: 1px solid rgb(78, 51, 255);
     border-radius: 1rem;
     background-color: rgba(255, 255, 255, 0.7);
     text-shadow: .7px .7px .7px rgb(15, 15, 15);
-    -webkit-text-stroke-color: rgb(142, 91, 36);
+    -webkit-text-stroke-color: var(--naranja_oscuro);
     -webkit-text-stroke-width: 1px;
 }
 

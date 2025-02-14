@@ -14,7 +14,7 @@
     </div> -->
 
 
-      <p class="instrucciones_cortas instrucciones_cortas_sombra"> ¡Elige un juego!</p>
+      <p class="instrucciones_cortas"> ¡Elige un juego!</p>
 
         <div class="grupo_iconos_juegos_home centrar">
 
