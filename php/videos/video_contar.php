@@ -1,7 +1,6 @@
 <?php require_once "../vistas/parte_superior.php"?>
 
     <main>
-
     <div class="posicion_btn_volver">
         <a href="../niveles/niveles_contar">
           <svg  xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-arrow-big-left btn_volver" viewBox="0 0 40 40"  stroke="#000000" stroke-linecap="round" stroke-linejoin="round">
@@ -14,11 +13,10 @@
     <div class="recuadro_blanco_fondo centrar">
         <p class="instrucciones_cortas">Video introducción : Juego contar</p>
 
-        <iframe class="centrar tam_video"  src="https://www.youtube.com/embed/CQoLqBBPaTk?autoplay=1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        <iframe class="centrar tam_video" src="https://www.youtube.com/embed/CQoLqBBPaTk?autoplay=1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-            <p style="text-align:center;">Referencia: Toobys Español. (8 de julio de 2014). Contar hasta 20 - Canción Infantil - Toobys [Archivo de video]. Youtube. https://www.youtube.com/watch?v=CQoLqBBPaTk&t</p>
-
-        </div>
+        <p class="ref_video">Referencia: Toobys Español. (8 de julio de 2014). Contar hasta 20 - Canción Infantil - Toobys [Archivo de video]. Youtube. https://www.youtube.com/watch?v=CQoLqBBPaTk&t</p>
+    </div>
     </main>
 </body>
 </html>

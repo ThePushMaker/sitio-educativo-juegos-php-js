@@ -121,6 +121,7 @@ a:hover {
     fill: var(--amarillo_claro);
     width: 30%;
     stroke-width: 1;
+    transition: all 0.2s ease;
 }
 
 @media (max-width: 540px) {
@@ -146,11 +147,7 @@ a:hover {
 
 .btn_volver:hover {
     fill: var(--seleccion);
-    -webkit-transform: scale(1.25);
-    -moz-transform: scale(1.25);
-    -ms-transform: scale(1.25);
-    -o-transform: scale(1.25);
-    transform: scale(1.25);
+    transform: scale(1.15);
 }
 
 .grupo_iconos_juegos_home {
@@ -398,6 +395,7 @@ a:hover {
 }
 
 .boton_seleccionable {
+    cursor: pointer;
     transition: 0.2s ease;
     -moz-transition: 0.2s ease;
     /* Firefox */
@@ -405,7 +403,7 @@ a:hover {
     /* Chrome - Safari */
     -o-transition: 0.2s ease;
     /* Opera */
-    /* -webkit-box-shadow: 0px 11px 16px -4px rgba(0,0,0,0.79); 
+    /* -webkit-box-shadow: 0px 11px 16px -4px rgba(0,0,0,0.79);
     box-shadow: 0px 11px 16px -4px rgba(0,0,0,0.79); */
     background-color: #538df8;
     background: -webkit-linear-gradient(right, #3b58c2, #7994f5, #7994f5, #3b58c2);
@@ -537,8 +535,16 @@ a:hover {
 }
 
 .tam_video {
-    width: 600px;
-    height: 500px;
+    margin: 3rem auto;
+    width: 1000px;
+    height: 600px;
+}
+
+.ref_video {
+    display: flex;
+    width: 50vw;
+    margin: 0 auto;
+    text-align:center;
 }
 
 @media (max-width: 768px) {
