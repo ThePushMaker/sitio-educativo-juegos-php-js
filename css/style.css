@@ -16,12 +16,12 @@ header {
     background-color: var(--primario);
     display: flex;
     justify-content: space-around;
-    background: -webkit-linear-gradient(right, #2c53bd, #60B6E9, #35ca9d, #2c53bd);
-    background: -o-linear-gradient(right, #2c53bd, #60B6E9, #35ca9d, #2c53bd);
-    background: -moz-linear-gradient(right, #2c53bd, #60B6E9, #35ca9d, #2c53bd);
-    background: linear-gradient(right, #2c53bd, #60B6E9, #35ca9d, #2c53bd);
+    background: -webkit-linear-gradient(right, #2850c0, #58bef9, #46ebca, #2850c0);
+    background: -o-linear-gradient(right, #2850c0, #58bef9, #46ebca, #2850c0);
+    background: -moz-linear-gradient(right, #2850c0, #58bef9, #46ebca, #2850c0);
+    background: linear-gradient(right, #2850c0, #58bef9, #46ebca, #2850c0);
     -webkit-box-shadow: 0px 11px 16px -4px rgba(0, 0, 0, 0.79);
-    box-shadow: 0px 11px 16px -4px rgba(0, 0, 0, 0.79);
+    box-shadow: 0px 3px 10px -4px rgba(0, 0, 0, 0.79);
 
 }
 
