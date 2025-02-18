@@ -16,7 +16,7 @@
 
     <div class="btn_nivel_fondo">
       <p style="text-align:center">
-        <img src="https://thumbs.gfycat.com/DeadlySpeedyAmericanbadger-size_restricted.gif" alt="tres" class="imagen_nivel">
+        <img src="https://i.gifer.com/8i75.gif" alt="tres" class="imagen_nivel">
       </p>
     </div>
     <p class="instrucciones_cortas" style="font-size: 1.2rem; color: black; text-shadow: none; -webkit-text-stroke-width: 1px; font-weight: normal;"> ¡Haz completado todos los niveles de este juego!</p>
